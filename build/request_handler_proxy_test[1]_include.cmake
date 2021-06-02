@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/cs130/mrjk-web-server/build/request_handler_proxy_test[1]_tests.cmake")
+  include("/usr/src/projects/cs130/mrjk-web-server/build/request_handler_proxy_test[1]_tests.cmake")
+else()
+  add_test(request_handler_proxy_test_NOT_BUILT request_handler_proxy_test_NOT_BUILT)
+endif()

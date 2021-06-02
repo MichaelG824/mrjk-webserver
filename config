@@ -1,0 +1,44 @@
+port 80; # The port my server listens on
+
+location "/echo" EchoHandler {
+}
+
+location "/echo2" EchoHandler {
+}
+
+location "/static" StaticHandler {
+  root "./files";  # supports relative path
+}
+
+location "/static2" StaticHandler {
+  root "./files";  # second path points to the same directory
+}
+
+location "/status" StatusHandler {
+}
+
+location "/myucla" ProxyHandler {
+  host "my.ucla.edu"
+  port 80;
+}
+
+location "/ucla" ProxyHandler {
+  host "www.ucla.edu";
+  port 80;
+}
+
+location "/health" HealthHandler {
+}
+
+location "/health2" HealthHandler {
+}
+
+location "/uploadform" UploadFormHandler {
+}
+
+location "/blog" BlogHandler {
+  username "ucla";
+  password "ucla";
+  host "35.233.247.136";
+  port "5432";
+}

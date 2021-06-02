@@ -1,0 +1,113 @@
+2020-05-06 01:25:32.786298 | 0x00007fecd6d2e740 | info | Parsing configuration file...
+2020-05-06 01:25:32.796679 | 0x00007fecd6d2e740 | info | Port number: 8080
+2020-05-06 01:25:32.797144 | 0x00007fecd6d2e740 | info | Root path: /usr/src/projects/mrjk-web-server
+2020-05-06 01:25:32.797668 | 0x00007fecd6d2e740 | info | Static servlet server location: /server_static_1
+2020-05-06 01:25:32.798072 | 0x00007fecd6d2e740 | info | Static servlet client location: /client_static_1
+2020-05-06 01:25:32.798580 | 0x00007fecd6d2e740 | info | Static servlet server location: /server_static_2
+2020-05-06 01:25:32.799140 | 0x00007fecd6d2e740 | info | Static servlet client location: /client_static_2
+2020-05-06 01:25:32.799632 | 0x00007fecd6d2e740 | info | Echo location: /echo
+2020-05-06 01:25:32.800155 | 0x00007fecd6d2e740 | info | Echo location: /echo2
+2020-05-06 01:25:32.800776 | 0x00007fecd6d2e740 | info | Parsed configuration file successfully.
+2020-05-06 01:25:32.801805 | 0x00007fecd6d2e740 | info | ProcessID of server is: 1068
+2020-05-06 01:25:32.802248 | 0x00007fecd6d2e740 | info | Successfully started web server using port number 8080
+2020-05-06 01:25:33.209374 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:33.210228 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57430
+2020-05-06 01:25:33.210827 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:33.211402 | 0x00007fecd6d2e740 | info | Currently serving echo requests on path: /echo
+2020-05-06 01:25:33.211983 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:33.212560 | 0x00007fecd6d2e740 | info | GET /echo HTTP/1.1 200 74
+2020-05-06 01:25:33.213113 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:33.242159 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:33.242986 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57432
+2020-05-06 01:25:33.243743 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:33.244435 | 0x00007fecd6d2e740 | info | Currently serving static requests on path: /client_static_1helloworld.txt/helloworld.txt
+2020-05-06 01:25:33.246343 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:33.246808 | 0x00007fecd6d2e740 | info | GET /client_static_1/helloworld.txt HTTP/1.1 200 100
+2020-05-06 01:25:33.247329 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:33.268243 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:33.268923 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57434
+2020-05-06 01:25:33.269869 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:33.270407 | 0x00007fecd6d2e740 | info | Currently serving static requests on path: /client_static_1nothanks.jpg/nothanks.jpg
+2020-05-06 01:25:33.274699 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:33.275773 | 0x00007fecd6d2e740 | info | GET /client_static_1/nothanks.jpg HTTP/1.1 200 98
+2020-05-06 01:25:33.276938 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:33.302199 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:33.302646 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57436
+2020-05-06 01:25:33.303021 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:33.303343 | 0x00007fecd6d2e740 | info | Currently serving static requests on path: /client_static_1helloworld.png/subdirectory/helloworld.png
+2020-05-06 01:25:33.305227 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:33.305627 | 0x00007fecd6d2e740 | info | GET /client_static_1/subdirectory/helloworld.png HTTP/1.1 200 113
+2020-05-06 01:25:33.306027 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:33.323436 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:33.323903 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57438
+2020-05-06 01:25:33.324182 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:33.324549 | 0x00007fecd6d2e740 | info | Currently serving static requests on path: /client_static_2hack.gif/hack.gif
+2020-05-06 01:25:33.531679 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:33.532188 | 0x00007fecd6d2e740 | info | GET /client_static_2/hack.gif HTTP/1.1 200 94
+2020-05-06 01:25:33.537490 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:34.021540 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.022051 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57440
+2020-05-06 01:25:34.022578 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.022971 | 0x00007fecd6d2e740 | info | Currently serving static requests on path: /client_static_1kek.html/kek.html
+2020-05-06 01:25:34.039460 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:34.040128 | 0x00007fecd6d2e740 | info | GET /client_static_1/kek.html HTTP/1.1 200 94
+2020-05-06 01:25:34.040858 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:34.120748 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.121150 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57442
+2020-05-06 01:25:34.121580 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.121919 | 0x00007fecd6d2e740 | info | Currently serving static requests on path: /client_static_1zippitydooda.zip/zippitydooda.zip
+2020-05-06 01:25:34.125378 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:34.125829 | 0x00007fecd6d2e740 | info | GET /client_static_1/zippitydooda.zip HTTP/1.1 200 102
+2020-05-06 01:25:34.126208 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:34.158520 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.158849 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57444
+2020-05-06 01:25:34.159212 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.159539 | 0x00007fecd6d2e740 | info | Currently serving static requests on path: /client_static_2hulkhogan.pdf/hulkhogan.pdf
+2020-05-06 01:25:34.164259 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:34.164703 | 0x00007fecd6d2e740 | info | GET /client_static_2/hulkhogan.pdf HTTP/1.1 200 99
+2020-05-06 01:25:34.165698 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:34.205946 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.206400 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57446
+2020-05-06 01:25:34.206979 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.207729 | 0x00007fecd6d2e740 | info | Currently serving static requests on path: /client_static_1nonexistent.txt/nonexistent.txt
+2020-05-06 01:25:34.208823 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:34.209425 | 0x00007fecd6d2e740 | info | GET /client_static_1/nonexistent.txt HTTP/1.1 404 101
+2020-05-06 01:25:34.210366 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:34.230754 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.231129 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57448
+2020-05-06 01:25:34.231615 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.232045 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:34.232400 | 0x00007fecd6d2e740 | info | GET /client_static_2939/nonexistentpath.txt HTTP/1.1 404 108
+2020-05-06 01:25:34.232933 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:34.248738 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.249168 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57450
+2020-05-06 01:25:34.249643 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.249956 | 0x00007fecd6d2e740 | info | Currently serving echo requests on path: /echo2
+2020-05-06 01:25:34.250256 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:34.250661 | 0x00007fecd6d2e740 | info | POST /echo2 HTTP/1.1 200 407
+2020-05-06 01:25:34.250991 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:34.268637 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.269243 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57452
+2020-05-06 01:25:34.269715 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.270038 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.270370 | 0x00007fecd6d2e740 | info | Currently serving echo requests on path: /echo
+2020-05-06 01:25:34.270730 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:34.271031 | 0x00007fecd6d2e740 | info | POST /echo HTTP/1.0 200 1477
+2020-05-06 01:25:34.271380 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:34.288784 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.289122 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57454
+2020-05-06 01:25:34.289529 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.289812 | 0x00007fecd6d2e740 | info | Currently serving echo requests on path: /echo2
+2020-05-06 01:25:34.290088 | 0x00007fecd6d2e740 | info | Parsed request successfully.
+2020-05-06 01:25:34.290382 | 0x00007fecd6d2e740 | info | GET /echo2 HTTP/1.1 200 99
+2020-05-06 01:25:34.621453 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.621953 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57456
+2020-05-06 01:25:34.622395 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.622946 | 0x00007fecd6d2e740 | error | Request is bad. Invalid request, shutting down session.
+2020-05-06 01:25:34.623362 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:34.641358 | 0x00007fecd6d2e740 | info | Successfully started new session.
+2020-05-06 01:25:34.641879 | 0x00007fecd6d2e740 | info | Client at IP Address: 127.0.0.1:57458
+2020-05-06 01:25:34.642283 | 0x00007fecd6d2e740 | info | Parsing request...
+2020-05-06 01:25:34.642759 | 0x00007fecd6d2e740 | error | Request is bad. Invalid request, shutting down session.
+2020-05-06 01:25:34.643180 | 0x00007fecd6d2e740 | info | Shutting down session.
+2020-05-06 01:25:49.933575 | 0x00007fecd6d2e740 | info | Program terminated with SIGINT

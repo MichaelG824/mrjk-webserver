@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/mrjk-web-server/build_coverage/request_parser_handler_test[1]_tests.cmake")
+  include("/usr/src/projects/mrjk-web-server/build_coverage/request_parser_handler_test[1]_tests.cmake")
+else()
+  add_test(request_parser_handler_test_NOT_BUILT request_parser_handler_test_NOT_BUILT)
+endif()

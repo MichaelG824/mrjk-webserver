@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/blog.h
+string
+-
+
+../include/database.h
+string
+-
+vector
+-
+mutex
+-
+blog.h
+../include/blog.h
+
+../include/mock_database.h
+string
+-
+vector
+-
+database.h
+../include/database.h
+
+/usr/src/projects/cs130/mrjk-web-server/src/mock_database.cc
+boost/log/trivial.hpp
+-
+mock_database.h
+/usr/src/projects/cs130/mrjk-web-server/src/mock_database.h
+

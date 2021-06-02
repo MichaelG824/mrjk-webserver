@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmock_database_lib.a  CMakeFiles/mock_database_lib.dir/src/mock_database.cc.o
+/usr/bin/ranlib libmock_database_lib.a

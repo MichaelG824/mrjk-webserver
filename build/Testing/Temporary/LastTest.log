@@ -1,0 +1,3133 @@
+Start testing: Jun 09 23:56 UTC
+----------------------------------------------------------
+1/97 Testing: NginxConfigParserTest.SimpleConfig
+1/97 Test: NginxConfigParserTest.SimpleConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.SimpleConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.SimpleConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.SimpleConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.SimpleConfig
+[2020-06-09 23:56:36.485750] [0x00007f7465e04740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.486342] [0x00007f7465e04740] [info]    Port number: 8080
+[2020-06-09 23:56:36.486442] [0x00007f7465e04740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.SimpleConfig (7 ms)
+[----------] 1 test from NginxConfigParserTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.SimpleConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.SimpleConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/97 Testing: NginxConfigParserTest.MissingPortNumberConfig
+2/97 Test: NginxConfigParserTest.MissingPortNumberConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingPortNumberConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.MissingPortNumberConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingPortNumberConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingPortNumberConfig
+[2020-06-09 23:56:36.507617] [0x00007ff81277e740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.517378] [0x00007ff81277e740] [error]   Exception: stoi
+[2020-06-09 23:56:36.518050] [0x00007ff81277e740] [info]    Port number: ;
+[2020-06-09 23:56:36.518089] [0x00007ff81277e740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.MissingPortNumberConfig (13 ms)
+[----------] 1 test from NginxConfigParserTest (13 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (13 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingPortNumberConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.MissingPortNumberConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/97 Testing: NginxConfigParserTest.MissingListenConfig
+3/97 Test: NginxConfigParserTest.MissingListenConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MissingListenConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.MissingListenConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MissingListenConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MissingListenConfig
+[2020-06-09 23:56:36.534541] [0x00007f0f2237e740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.534813] [0x00007f0f2237e740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.MissingListenConfig (3 ms)
+[----------] 1 test from NginxConfigParserTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MissingListenConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.MissingListenConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/97 Testing: NginxConfigParserTest.StringPortNumberConfig
+4/97 Test: NginxConfigParserTest.StringPortNumberConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.StringPortNumberConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.StringPortNumberConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.StringPortNumberConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.StringPortNumberConfig
+[2020-06-09 23:56:36.548458] [0x00007f3add677740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.548840] [0x00007f3add677740] [error]   Exception: stoi
+[2020-06-09 23:56:36.548856] [0x00007f3add677740] [info]    Port number: hey
+[2020-06-09 23:56:36.548879] [0x00007f3add677740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.StringPortNumberConfig (3 ms)
+[----------] 1 test from NginxConfigParserTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.StringPortNumberConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.StringPortNumberConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/97 Testing: NginxConfigParserTest.TooBigPortNumberConfig
+5/97 Test: NginxConfigParserTest.TooBigPortNumberConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.TooBigPortNumberConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.TooBigPortNumberConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.TooBigPortNumberConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.TooBigPortNumberConfig
+[2020-06-09 23:56:36.562831] [0x00007fa4d7860740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.563124] [0x00007fa4d7860740] [info]    Port number: 808080
+[2020-06-09 23:56:36.563147] [0x00007fa4d7860740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.TooBigPortNumberConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.TooBigPortNumberConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.TooBigPortNumberConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/97 Testing: NginxConfigParserTest.NegativePortNumberConfig
+6/97 Test: NginxConfigParserTest.NegativePortNumberConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.NegativePortNumberConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.NegativePortNumberConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.NegativePortNumberConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.NegativePortNumberConfig
+[2020-06-09 23:56:36.577708] [0x00007f6a1c30b740] [info]    Parsing configuration file...
+Please provide a valid port number
+[2020-06-09 23:56:36.578049] [0x00007f6a1c30b740] [error]   Port number -8080 is invalid.
+[2020-06-09 23:56:36.578055] [0x00007f6a1c30b740] [info]    Port number: -8080
+[2020-06-09 23:56:36.578074] [0x00007f6a1c30b740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.NegativePortNumberConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.NegativePortNumberConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.NegativePortNumberConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/97 Testing: NginxConfigParserTest.IPPortNumberConfig
+7/97 Test: NginxConfigParserTest.IPPortNumberConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.IPPortNumberConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.IPPortNumberConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.IPPortNumberConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.IPPortNumberConfig
+[2020-06-09 23:56:36.591257] [0x00007f26a8858740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.591820] [0x00007f26a8858740] [info]    Port number: 127.0.0.1:8080
+[2020-06-09 23:56:36.591839] [0x00007f26a8858740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.IPPortNumberConfig (3 ms)
+[----------] 1 test from NginxConfigParserTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.IPPortNumberConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.IPPortNumberConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/97 Testing: NginxConfigParserTest.DNEFileConfig
+8/97 Test: NginxConfigParserTest.DNEFileConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.DNEFileConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.DNEFileConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.DNEFileConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.DNEFileConfig
+[2020-06-09 23:56:36.604631] [0x00007f93d8d5c740] [error]   Failed to open config file: DNE_config
+[       OK ] NginxConfigParserTest.DNEFileConfig (0 ms)
+[----------] 1 test from NginxConfigParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.DNEFileConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.DNEFileConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/97 Testing: NginxConfigParserTest.QuotesConfig
+9/97 Test: NginxConfigParserTest.QuotesConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.QuotesConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.QuotesConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.QuotesConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.QuotesConfig
+[2020-06-09 23:56:36.618020] [0x00007f4842119740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.618366] [0x00007f4842119740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.QuotesConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.QuotesConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.QuotesConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/97 Testing: NginxConfigParserTest.StatementsConfig
+10/97 Test: NginxConfigParserTest.StatementsConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.StatementsConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.StatementsConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.StatementsConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.StatementsConfig
+[2020-06-09 23:56:36.632174] [0x00007f06c552a740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.632485] [0x00007f06c552a740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.StatementsConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.StatementsConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.StatementsConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/97 Testing: NginxConfigParserTest.MatchedBracketsConfig
+11/97 Test: NginxConfigParserTest.MatchedBracketsConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.MatchedBracketsConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.MatchedBracketsConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.MatchedBracketsConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.MatchedBracketsConfig
+[2020-06-09 23:56:36.645796] [0x00007f78d52fe740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.646151] [0x00007f78d52fe740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.MatchedBracketsConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.MatchedBracketsConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.MatchedBracketsConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/97 Testing: NginxConfigParserTest.UnmatchedBracketsConfig
+12/97 Test: NginxConfigParserTest.UnmatchedBracketsConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.UnmatchedBracketsConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.UnmatchedBracketsConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.UnmatchedBracketsConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.UnmatchedBracketsConfig
+[2020-06-09 23:56:36.659909] [0x00007ffb9d735740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.660239] [0x00007ffb9d735740] [error]   Bad transition from TOKEN_TYPE_END_BLOCK to TOKEN_TYPE_END_BLOCK
+[       OK ] NginxConfigParserTest.UnmatchedBracketsConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.UnmatchedBracketsConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.UnmatchedBracketsConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/97 Testing: NginxConfigParserTest.EmptyConfig
+13/97 Test: NginxConfigParserTest.EmptyConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.EmptyConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.EmptyConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.EmptyConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.EmptyConfig
+[2020-06-09 23:56:36.672470] [0x00007fcf18a31740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.672758] [0x00007fcf18a31740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.EmptyConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.EmptyConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.EmptyConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/97 Testing: NginxConfigParserTest.CommentsConfig
+14/97 Test: NginxConfigParserTest.CommentsConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.CommentsConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.CommentsConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.CommentsConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.CommentsConfig
+[2020-06-09 23:56:36.686900] [0x00007fba9489a740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.687197] [0x00007fba9489a740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.CommentsConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.CommentsConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.CommentsConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/97 Testing: NginxConfigParserTest.EmptyBracesConfig
+15/97 Test: NginxConfigParserTest.EmptyBracesConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.EmptyBracesConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.EmptyBracesConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.EmptyBracesConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.EmptyBracesConfig
+[2020-06-09 23:56:36.700812] [0x00007f9004c08740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.701104] [0x00007f9004c08740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.EmptyBracesConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.EmptyBracesConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.EmptyBracesConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/97 Testing: NginxConfigParserTest.BadEndConfig
+16/97 Test: NginxConfigParserTest.BadEndConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.BadEndConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.BadEndConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.BadEndConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.BadEndConfig
+[2020-06-09 23:56:36.713808] [0x00007fa336eab740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.714114] [0x00007fa336eab740] [error]   Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_EOF
+[       OK ] NginxConfigParserTest.BadEndConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.BadEndConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.BadEndConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/97 Testing: NginxConfigParserTest.OpenBracesConfig
+17/97 Test: NginxConfigParserTest.OpenBracesConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.OpenBracesConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.OpenBracesConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.OpenBracesConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.OpenBracesConfig
+[2020-06-09 23:56:36.728671] [0x00007fa5a6f54740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.728972] [0x00007fa5a6f54740] [error]   Bad transition from TOKEN_TYPE_START_BLOCK to TOKEN_TYPE_START_BLOCK
+[       OK ] NginxConfigParserTest.OpenBracesConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.OpenBracesConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.OpenBracesConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/97 Testing: NginxConfigParserTest.QuoteEndConfig
+18/97 Test: NginxConfigParserTest.QuoteEndConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.QuoteEndConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.QuoteEndConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.QuoteEndConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.QuoteEndConfig
+[2020-06-09 23:56:36.742023] [0x00007fccdf46e740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.742398] [0x00007fccdf46e740] [error]   Bad transition from TOKEN_TYPE_END_BLOCK to TOKEN_TYPE_ERROR
+[       OK ] NginxConfigParserTest.QuoteEndConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.QuoteEndConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.QuoteEndConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/97 Testing: NginxConfigParserTest.StatementEndConfig
+19/97 Test: NginxConfigParserTest.StatementEndConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.StatementEndConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.StatementEndConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.StatementEndConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.StatementEndConfig
+[2020-06-09 23:56:36.757201] [0x00007f172db4b740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.757490] [0x00007f172db4b740] [info]    Port number: 8080
+[2020-06-09 23:56:36.757509] [0x00007f172db4b740] [error]   Bad transition from TOKEN_TYPE_STATEMENT_END to TOKEN_TYPE_STATEMENT_END
+[       OK ] NginxConfigParserTest.StatementEndConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.StatementEndConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.StatementEndConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/97 Testing: NginxConfigParserTest.ForeignLanguageConfig
+20/97 Test: NginxConfigParserTest.ForeignLanguageConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.ForeignLanguageConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.ForeignLanguageConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.ForeignLanguageConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.ForeignLanguageConfig
+[2020-06-09 23:56:36.770919] [0x00007fedbae25740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.771392] [0x00007fedbae25740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.ForeignLanguageConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.ForeignLanguageConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.ForeignLanguageConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/97 Testing: NginxConfigParserTest.EchoStaticProxyConfig
+21/97 Test: NginxConfigParserTest.EchoStaticProxyConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.EchoStaticProxyConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.EchoStaticProxyConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.EchoStaticProxyConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.EchoStaticProxyConfig
+[2020-06-09 23:56:36.785468] [0x00007f02b4b70740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.785784] [0x00007f02b4b70740] [info]    Port number: 8080
+[2020-06-09 23:56:36.785810] [0x00007f02b4b70740] [info]    Echo location: /echo
+[2020-06-09 23:56:36.785831] [0x00007f02b4b70740] [info]    Echo location: /echo2
+[2020-06-09 23:56:36.785855] [0x00007f02b4b70740] [info]    Static servlet client location: /static
+[2020-06-09 23:56:36.785867] [0x00007f02b4b70740] [info]    Static servlet server location: ./files
+[2020-06-09 23:56:36.785892] [0x00007f02b4b70740] [info]    Static servlet client location: /static2
+[2020-06-09 23:56:36.785903] [0x00007f02b4b70740] [info]    Static servlet server location: ./files
+[2020-06-09 23:56:36.785936] [0x00007f02b4b70740] [info]    Proxy servlet client location: /proxy1
+[2020-06-09 23:56:36.785948] [0x00007f02b4b70740] [info]    Proxy servlet server location: /server1
+[2020-06-09 23:56:36.785959] [0x00007f02b4b70740] [info]    Proxy servlet server port number: 42069
+[2020-06-09 23:56:36.785984] [0x00007f02b4b70740] [info]    Proxy servlet client location: /redirect1
+[2020-06-09 23:56:36.785995] [0x00007f02b4b70740] [info]    Proxy servlet server location: /server1
+[2020-06-09 23:56:36.786021] [0x00007f02b4b70740] [info]    Proxy servlet client location: /proxy2
+[2020-06-09 23:56:36.786032] [0x00007f02b4b70740] [info]    Proxy servlet server location: /server2
+[2020-06-09 23:56:36.786043] [0x00007f02b4b70740] [info]    Proxy servlet server port number: 12345
+[2020-06-09 23:56:36.786070] [0x00007f02b4b70740] [info]    Proxy servlet client location: /redirect2
+[2020-06-09 23:56:36.786081] [0x00007f02b4b70740] [info]    Proxy servlet server location: /server2
+[2020-06-09 23:56:36.786100] [0x00007f02b4b70740] [info]    Upload form location: /uploadform
+[2020-06-09 23:56:36.786118] [0x00007f02b4b70740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.EchoStaticProxyConfig (3 ms)
+[----------] 1 test from NginxConfigParserTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.EchoStaticProxyConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.EchoStaticProxyConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/97 Testing: NginxConfigParserTest.SpacePathConfig
+22/97 Test: NginxConfigParserTest.SpacePathConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.SpacePathConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.SpacePathConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.SpacePathConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.SpacePathConfig
+[2020-06-09 23:56:36.800729] [0x00007fd596101740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.801039] [0x00007fd596101740] [info]    Port number: 8080
+[2020-06-09 23:56:36.801062] [0x00007fd596101740] [info]    Echo location: /e cho
+[2020-06-09 23:56:36.801081] [0x00007fd596101740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.SpacePathConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.SpacePathConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.SpacePathConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/97 Testing: NginxConfigParserTest.HealthHandlerConfig
+23/97 Test: NginxConfigParserTest.HealthHandlerConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.HealthHandlerConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.HealthHandlerConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.HealthHandlerConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.HealthHandlerConfig
+[2020-06-09 23:56:36.815502] [0x00007fe020a76740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.815869] [0x00007fe020a76740] [info]    Health location: /health
+[2020-06-09 23:56:36.815918] [0x00007fe020a76740] [info]    Health location: /health2
+[2020-06-09 23:56:36.815936] [0x00007fe020a76740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.HealthHandlerConfig (2 ms)
+[----------] 1 test from NginxConfigParserTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.HealthHandlerConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.HealthHandlerConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/97 Testing: NginxConfigParserTest.BlogHandlerConfig
+24/97 Test: NginxConfigParserTest.BlogHandlerConfig
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/config_parser_test" "--gtest_filter=NginxConfigParserTest.BlogHandlerConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"NginxConfigParserTest.BlogHandlerConfig" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NginxConfigParserTest.BlogHandlerConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NginxConfigParserTest
+[ RUN      ] NginxConfigParserTest.BlogHandlerConfig
+[2020-06-09 23:56:36.830398] [0x00007f8434630740] [info]    Parsing configuration file...
+[2020-06-09 23:56:36.830830] [0x00007f8434630740] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:36.830852] [0x00007f8434630740] [info]    Blog database IP location: 34.83.52.12
+[2020-06-09 23:56:36.830876] [0x00007f8434630740] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:36.830888] [0x00007f8434630740] [info]    Blog database port: 5432
+[2020-06-09 23:56:36.830914] [0x00007f8434630740] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:36.830929] [0x00007f8434630740] [info]    Blog database username: testusername
+[2020-06-09 23:56:36.830953] [0x00007f8434630740] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:36.830965] [0x00007f8434630740] [info]    Blog database password: testpassword
+[2020-06-09 23:56:36.830997] [0x00007f8434630740] [info]    Blog servlet client location: /blog2
+[2020-06-09 23:56:36.831009] [0x00007f8434630740] [info]    Blog database username: hello
+[2020-06-09 23:56:36.831034] [0x00007f8434630740] [info]    Blog servlet client location: /blog2
+[2020-06-09 23:56:36.831046] [0x00007f8434630740] [info]    Blog database password: world
+[2020-06-09 23:56:36.831066] [0x00007f8434630740] [info]    Blog servlet client location: /blog2
+[2020-06-09 23:56:36.831077] [0x00007f8434630740] [info]    Blog database IP location: 127.0.0.1
+[2020-06-09 23:56:36.831098] [0x00007f8434630740] [info]    Blog servlet client location: /blog2
+[2020-06-09 23:56:36.831109] [0x00007f8434630740] [info]    Blog database port: 2345
+[2020-06-09 23:56:36.831153] [0x00007f8434630740] [info]    Upload form location: /uploadform
+[2020-06-09 23:56:36.831181] [0x00007f8434630740] [info]    Parsed configuration file successfully.
+[       OK ] NginxConfigParserTest.BlogHandlerConfig (3 ms)
+[----------] 1 test from NginxConfigParserTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"NginxConfigParserTest.BlogHandlerConfig" end time: Jun 09 23:56 UTC
+"NginxConfigParserTest.BlogHandlerConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/97 Testing: RequestHandlerTest.GETRequest
+25/97 Test: RequestHandlerTest.GETRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.GETRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.GETRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.GETRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.GETRequest
+[2020-06-09 23:56:36.847890] [0x00007f7d28bea740] [info]    [ResponseMetrics]Request_Handler: echo
+[       OK ] RequestHandlerTest.GETRequest (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.GETRequest" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.GETRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/97 Testing: RequestHandlerTest.BadRequest
+26/97 Test: RequestHandlerTest.BadRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.BadRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.BadRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.BadRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.BadRequest
+[       OK ] RequestHandlerTest.BadRequest (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.BadRequest" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.BadRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/97 Testing: RequestHandlerTest.EmptyRequest
+27/97 Test: RequestHandlerTest.EmptyRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.EmptyRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.EmptyRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.EmptyRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.EmptyRequest
+[       OK ] RequestHandlerTest.EmptyRequest (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.EmptyRequest" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.EmptyRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/97 Testing: RequestHandlerTest.InvalidURI
+28/97 Test: RequestHandlerTest.InvalidURI
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.InvalidURI" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.InvalidURI" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.InvalidURI
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.InvalidURI
+[       OK ] RequestHandlerTest.InvalidURI (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.InvalidURI" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.InvalidURI" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/97 Testing: RequestHandlerTest.EmptyBodyRequest
+29/97 Test: RequestHandlerTest.EmptyBodyRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.EmptyBodyRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.EmptyBodyRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.EmptyBodyRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.EmptyBodyRequest
+[2020-06-09 23:56:36.904570] [0x00007f03fb9e1740] [info]    [ResponseMetrics]Request_Handler: echo
+[       OK ] RequestHandlerTest.EmptyBodyRequest (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.EmptyBodyRequest" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.EmptyBodyRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/97 Testing: RequestHandlerTest.POSTRequest
+30/97 Test: RequestHandlerTest.POSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.POSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.POSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.POSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.POSTRequest
+[2020-06-09 23:56:36.917167] [0x00007fa6b04a3740] [info]    [ResponseMetrics]Request_Handler: echo
+[       OK ] RequestHandlerTest.POSTRequest (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.POSTRequest" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.POSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/97 Testing: RequestHandlerTest.LongPOSTRequest
+31/97 Test: RequestHandlerTest.LongPOSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.LongPOSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.LongPOSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.LongPOSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.LongPOSTRequest
+[2020-06-09 23:56:36.930393] [0x00007feea88d3740] [info]    [ResponseMetrics]Request_Handler: echo
+[       OK ] RequestHandlerTest.LongPOSTRequest (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.LongPOSTRequest" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.LongPOSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/97 Testing: RequestHandlerTest.TrickyLongPOSTRequest
+32/97 Test: RequestHandlerTest.TrickyLongPOSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.TrickyLongPOSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.TrickyLongPOSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.TrickyLongPOSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.TrickyLongPOSTRequest
+[2020-06-09 23:56:36.914757] [0x00007f727849e740] [info]    [ResponseMetrics]Request_Handler: echo
+[       OK ] RequestHandlerTest.TrickyLongPOSTRequest (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.TrickyLongPOSTRequest" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.TrickyLongPOSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/97 Testing: RequestHandlerTest.Exactly1024POSTRequest
+33/97 Test: RequestHandlerTest.Exactly1024POSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.Exactly1024POSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.Exactly1024POSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.Exactly1024POSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.Exactly1024POSTRequest
+[2020-06-09 23:56:36.926784] [0x00007f6bfdcae740] [info]    [ResponseMetrics]Request_Handler: echo
+[       OK ] RequestHandlerTest.Exactly1024POSTRequest (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.Exactly1024POSTRequest" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.Exactly1024POSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/97 Testing: RequestHandlerTest.Exactly1025POSTRequest
+34/97 Test: RequestHandlerTest.Exactly1025POSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestHandlerTest.Exactly1025POSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestHandlerTest.Exactly1025POSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestHandlerTest.Exactly1025POSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestHandlerTest
+[ RUN      ] RequestHandlerTest.Exactly1025POSTRequest
+[2020-06-09 23:56:36.938499] [0x00007f604bcac740] [info]    [ResponseMetrics]Request_Handler: echo
+[       OK ] RequestHandlerTest.Exactly1025POSTRequest (0 ms)
+[----------] 1 test from RequestHandlerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestHandlerTest.Exactly1025POSTRequest" end time: Jun 09 23:56 UTC
+"RequestHandlerTest.Exactly1025POSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/97 Testing: RequestParserTest.ParseGETRequest
+35/97 Test: RequestParserTest.ParseGETRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseGETRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseGETRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseGETRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseGETRequest
+[       OK ] RequestParserTest.ParseGETRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseGETRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseGETRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/97 Testing: RequestParserTest.ParseTwoPartGETRequest
+36/97 Test: RequestParserTest.ParseTwoPartGETRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseTwoPartGETRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseTwoPartGETRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseTwoPartGETRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseTwoPartGETRequest
+[       OK ] RequestParserTest.ParseTwoPartGETRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseTwoPartGETRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseTwoPartGETRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/97 Testing: RequestParserTest.ParseBadRequest
+37/97 Test: RequestParserTest.ParseBadRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseBadRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseBadRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseBadRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseBadRequest
+[       OK ] RequestParserTest.ParseBadRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseBadRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseBadRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/97 Testing: RequestParserTest.ParseGETRequestWithIllegalBody
+38/97 Test: RequestParserTest.ParseGETRequestWithIllegalBody
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseGETRequestWithIllegalBody" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseGETRequestWithIllegalBody" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseGETRequestWithIllegalBody
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseGETRequestWithIllegalBody
+[       OK ] RequestParserTest.ParseGETRequestWithIllegalBody (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseGETRequestWithIllegalBody" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseGETRequestWithIllegalBody" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/97 Testing: RequestParserTest.ParseEmptyRequest
+39/97 Test: RequestParserTest.ParseEmptyRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseEmptyRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseEmptyRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseEmptyRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseEmptyRequest
+[       OK ] RequestParserTest.ParseEmptyRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseEmptyRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseEmptyRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/97 Testing: RequestParserTest.ParseHeaderBodyRequest
+40/97 Test: RequestParserTest.ParseHeaderBodyRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseHeaderBodyRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseHeaderBodyRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseHeaderBodyRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseHeaderBodyRequest
+[       OK ] RequestParserTest.ParseHeaderBodyRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseHeaderBodyRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseHeaderBodyRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/97 Testing: RequestParserTest.ParseEmptyBodyGETRequest
+41/97 Test: RequestParserTest.ParseEmptyBodyGETRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseEmptyBodyGETRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseEmptyBodyGETRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseEmptyBodyGETRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseEmptyBodyGETRequest
+[       OK ] RequestParserTest.ParseEmptyBodyGETRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseEmptyBodyGETRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseEmptyBodyGETRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/97 Testing: RequestParserTest.ParsePOSTRequest
+42/97 Test: RequestParserTest.ParsePOSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParsePOSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParsePOSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParsePOSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParsePOSTRequest
+[       OK ] RequestParserTest.ParsePOSTRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParsePOSTRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParsePOSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/97 Testing: RequestParserTest.ParseEmptyBodyPOSTRequest
+43/97 Test: RequestParserTest.ParseEmptyBodyPOSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseEmptyBodyPOSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseEmptyBodyPOSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseEmptyBodyPOSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseEmptyBodyPOSTRequest
+[       OK ] RequestParserTest.ParseEmptyBodyPOSTRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseEmptyBodyPOSTRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseEmptyBodyPOSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/97 Testing: RequestParserTest.ParseIncorrentContentLengthPOSTRequest
+44/97 Test: RequestParserTest.ParseIncorrentContentLengthPOSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseIncorrentContentLengthPOSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseIncorrentContentLengthPOSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseIncorrentContentLengthPOSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseIncorrentContentLengthPOSTRequest
+[       OK ] RequestParserTest.ParseIncorrentContentLengthPOSTRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseIncorrentContentLengthPOSTRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseIncorrentContentLengthPOSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/97 Testing: RequestParserTest.ParseLongPOSTRequest
+45/97 Test: RequestParserTest.ParseLongPOSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseLongPOSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseLongPOSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseLongPOSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseLongPOSTRequest
+[       OK ] RequestParserTest.ParseLongPOSTRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseLongPOSTRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseLongPOSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/97 Testing: RequestParserTest.ParseTrickyLongPOSTRequest
+46/97 Test: RequestParserTest.ParseTrickyLongPOSTRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseTrickyLongPOSTRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseTrickyLongPOSTRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseTrickyLongPOSTRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseTrickyLongPOSTRequest
+[       OK ] RequestParserTest.ParseTrickyLongPOSTRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseTrickyLongPOSTRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseTrickyLongPOSTRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/97 Testing: RequestParserTest.ParseGoogleGETRequest
+47/97 Test: RequestParserTest.ParseGoogleGETRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ParseGoogleGETRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ParseGoogleGETRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ParseGoogleGETRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ParseGoogleGETRequest
+[       OK ] RequestParserTest.ParseGoogleGETRequest (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ParseGoogleGETRequest" end time: Jun 09 23:56 UTC
+"RequestParserTest.ParseGoogleGETRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/97 Testing: RequestParserTest.GETRequestNoNewLine2
+48/97 Test: RequestParserTest.GETRequestNoNewLine2
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestNoNewLine2" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestNoNewLine2" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestNoNewLine2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestNoNewLine2
+[       OK ] RequestParserTest.GETRequestNoNewLine2 (1 ms)
+[----------] 1 test from RequestParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestNoNewLine2" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestNoNewLine2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/97 Testing: RequestParserTest.GETRequestNoSpaceBeforeHeaderValue
+49/97 Test: RequestParserTest.GETRequestNoSpaceBeforeHeaderValue
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestNoSpaceBeforeHeaderValue" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestNoSpaceBeforeHeaderValue" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestNoSpaceBeforeHeaderValue
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestNoSpaceBeforeHeaderValue
+[       OK ] RequestParserTest.GETRequestNoSpaceBeforeHeaderValue (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestNoSpaceBeforeHeaderValue" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestNoSpaceBeforeHeaderValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/97 Testing: RequestParserTest.GETRequestInvalidCharBeginning
+50/97 Test: RequestParserTest.GETRequestInvalidCharBeginning
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestInvalidCharBeginning" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestInvalidCharBeginning" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestInvalidCharBeginning
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestInvalidCharBeginning
+[       OK ] RequestParserTest.GETRequestInvalidCharBeginning (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestInvalidCharBeginning" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestInvalidCharBeginning" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/97 Testing: RequestParserTest.GETRequestControlCodeInHeaderValue
+51/97 Test: RequestParserTest.GETRequestControlCodeInHeaderValue
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestControlCodeInHeaderValue" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestControlCodeInHeaderValue" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestControlCodeInHeaderValue
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestControlCodeInHeaderValue
+[       OK ] RequestParserTest.GETRequestControlCodeInHeaderValue (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestControlCodeInHeaderValue" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestControlCodeInHeaderValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/97 Testing: RequestParserTest.GETRequestBadHeaderName
+52/97 Test: RequestParserTest.GETRequestBadHeaderName
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestBadHeaderName" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestBadHeaderName" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestBadHeaderName
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestBadHeaderName
+[       OK ] RequestParserTest.GETRequestBadHeaderName (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestBadHeaderName" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestBadHeaderName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/97 Testing: RequestParserTest.GETRequestBadHeaderName2
+53/97 Test: RequestParserTest.GETRequestBadHeaderName2
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestBadHeaderName2" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestBadHeaderName2" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestBadHeaderName2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestBadHeaderName2
+[       OK ] RequestParserTest.GETRequestBadHeaderName2 (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestBadHeaderName2" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestBadHeaderName2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/97 Testing: RequestParserTest.GETRequestBadHeaderName3
+54/97 Test: RequestParserTest.GETRequestBadHeaderName3
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestBadHeaderName3" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestBadHeaderName3" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestBadHeaderName3
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestBadHeaderName3
+[       OK ] RequestParserTest.GETRequestBadHeaderName3 (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestBadHeaderName3" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestBadHeaderName3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/97 Testing: RequestParserTest.GETHTTPVersionMajorTwoDigits
+55/97 Test: RequestParserTest.GETHTTPVersionMajorTwoDigits
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETHTTPVersionMajorTwoDigits" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETHTTPVersionMajorTwoDigits" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETHTTPVersionMajorTwoDigits
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETHTTPVersionMajorTwoDigits
+[       OK ] RequestParserTest.GETHTTPVersionMajorTwoDigits (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETHTTPVersionMajorTwoDigits" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETHTTPVersionMajorTwoDigits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/97 Testing: RequestParserTest.GETHTTPVersionMinorTwoDigits
+56/97 Test: RequestParserTest.GETHTTPVersionMinorTwoDigits
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETHTTPVersionMinorTwoDigits" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETHTTPVersionMinorTwoDigits" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETHTTPVersionMinorTwoDigits
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETHTTPVersionMinorTwoDigits
+[       OK ] RequestParserTest.GETHTTPVersionMinorTwoDigits (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETHTTPVersionMinorTwoDigits" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETHTTPVersionMinorTwoDigits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/97 Testing: RequestParserTest.GETHTTPVersionMinorLetterInsteadOfNum
+57/97 Test: RequestParserTest.GETHTTPVersionMinorLetterInsteadOfNum
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETHTTPVersionMinorLetterInsteadOfNum" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETHTTPVersionMinorLetterInsteadOfNum" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETHTTPVersionMinorLetterInsteadOfNum
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETHTTPVersionMinorLetterInsteadOfNum
+[       OK ] RequestParserTest.GETHTTPVersionMinorLetterInsteadOfNum (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETHTTPVersionMinorLetterInsteadOfNum" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETHTTPVersionMinorLetterInsteadOfNum" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/97 Testing: RequestParserTest.GETBadHeaderLineStartExtraSpace
+58/97 Test: RequestParserTest.GETBadHeaderLineStartExtraSpace
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETBadHeaderLineStartExtraSpace" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETBadHeaderLineStartExtraSpace" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETBadHeaderLineStartExtraSpace
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETBadHeaderLineStartExtraSpace
+[       OK ] RequestParserTest.GETBadHeaderLineStartExtraSpace (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETBadHeaderLineStartExtraSpace" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETBadHeaderLineStartExtraSpace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/97 Testing: RequestParserTest.GETBadHeaderExpectingNewLine
+59/97 Test: RequestParserTest.GETBadHeaderExpectingNewLine
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETBadHeaderExpectingNewLine" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETBadHeaderExpectingNewLine" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETBadHeaderExpectingNewLine
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETBadHeaderExpectingNewLine
+[       OK ] RequestParserTest.GETBadHeaderExpectingNewLine (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETBadHeaderExpectingNewLine" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETBadHeaderExpectingNewLine" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/97 Testing: RequestParserTest.GETBadRequestHeaderSpecialCharAtLineStart
+60/97 Test: RequestParserTest.GETBadRequestHeaderSpecialCharAtLineStart
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETBadRequestHeaderSpecialCharAtLineStart" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETBadRequestHeaderSpecialCharAtLineStart" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETBadRequestHeaderSpecialCharAtLineStart
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETBadRequestHeaderSpecialCharAtLineStart
+[       OK ] RequestParserTest.GETBadRequestHeaderSpecialCharAtLineStart (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETBadRequestHeaderSpecialCharAtLineStart" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETBadRequestHeaderSpecialCharAtLineStart" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/97 Testing: RequestParserTest.GETRequestBadMinorVersion
+61/97 Test: RequestParserTest.GETRequestBadMinorVersion
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestBadMinorVersion" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestBadMinorVersion" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestBadMinorVersion
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestBadMinorVersion
+[       OK ] RequestParserTest.GETRequestBadMinorVersion (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestBadMinorVersion" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestBadMinorVersion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/97 Testing: RequestParserTest.GETRequestBadMajorVersionStart
+62/97 Test: RequestParserTest.GETRequestBadMajorVersionStart
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestBadMajorVersionStart" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestBadMajorVersionStart" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestBadMajorVersionStart
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestBadMajorVersionStart
+[       OK ] RequestParserTest.GETRequestBadMajorVersionStart (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestBadMajorVersionStart" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestBadMajorVersionStart" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/97 Testing: RequestParserTest.GETRequestBadMajorVersionEnd
+63/97 Test: RequestParserTest.GETRequestBadMajorVersionEnd
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestBadMajorVersionEnd" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestBadMajorVersionEnd" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestBadMajorVersionEnd
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestBadMajorVersionEnd
+[       OK ] RequestParserTest.GETRequestBadMajorVersionEnd (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestBadMajorVersionEnd" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestBadMajorVersionEnd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/97 Testing: RequestParserTest.GETRequestCtlAsURI
+64/97 Test: RequestParserTest.GETRequestCtlAsURI
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestCtlAsURI" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestCtlAsURI" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestCtlAsURI
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestCtlAsURI
+[       OK ] RequestParserTest.GETRequestCtlAsURI (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestCtlAsURI" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestCtlAsURI" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/97 Testing: RequestParserTest.GETRequestBadMethodName
+65/97 Test: RequestParserTest.GETRequestBadMethodName
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestBadMethodName" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestBadMethodName" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestBadMethodName
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestBadMethodName
+[       OK ] RequestParserTest.GETRequestBadMethodName (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestBadMethodName" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestBadMethodName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/97 Testing: RequestParserTest.GETRequestBadMethodName2
+66/97 Test: RequestParserTest.GETRequestBadMethodName2
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestBadMethodName2" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestBadMethodName2" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestBadMethodName2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestBadMethodName2
+[       OK ] RequestParserTest.GETRequestBadMethodName2 (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestBadMethodName2" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestBadMethodName2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/97 Testing: RequestParserTest.GETRequestBadMethodName3
+67/97 Test: RequestParserTest.GETRequestBadMethodName3
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestBadMethodName3" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestBadMethodName3" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestBadMethodName3
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestBadMethodName3
+[       OK ] RequestParserTest.GETRequestBadMethodName3 (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestBadMethodName3" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestBadMethodName3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/97 Testing: RequestParserTest.GETRequestHTTPBad1stT
+68/97 Test: RequestParserTest.GETRequestHTTPBad1stT
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestHTTPBad1stT" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestHTTPBad1stT" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestHTTPBad1stT
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestHTTPBad1stT
+[       OK ] RequestParserTest.GETRequestHTTPBad1stT (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestHTTPBad1stT" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestHTTPBad1stT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/97 Testing: RequestParserTest.GETRequestHTTPBad2ndT
+69/97 Test: RequestParserTest.GETRequestHTTPBad2ndT
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestHTTPBad2ndT" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestHTTPBad2ndT" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestHTTPBad2ndT
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestHTTPBad2ndT
+[       OK ] RequestParserTest.GETRequestHTTPBad2ndT (0 ms)
+[----------] 1 test from RequestParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestHTTPBad2ndT" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestHTTPBad2ndT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/97 Testing: RequestParserTest.GETRequestHTTPBadP
+70/97 Test: RequestParserTest.GETRequestHTTPBadP
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestHTTPBadP" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestHTTPBadP" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestHTTPBadP
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestHTTPBadP
+[       OK ] RequestParserTest.GETRequestHTTPBadP (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestHTTPBadP" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestHTTPBadP" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/97 Testing: RequestParserTest.GETRequestHTTPNoVersionSlash
+71/97 Test: RequestParserTest.GETRequestHTTPNoVersionSlash
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETRequestHTTPNoVersionSlash" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETRequestHTTPNoVersionSlash" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETRequestHTTPNoVersionSlash
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETRequestHTTPNoVersionSlash
+[       OK ] RequestParserTest.GETRequestHTTPNoVersionSlash (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETRequestHTTPNoVersionSlash" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETRequestHTTPNoVersionSlash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/97 Testing: RequestParserTest.RequestParserReset
+72/97 Test: RequestParserTest.RequestParserReset
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.RequestParserReset" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.RequestParserReset" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.RequestParserReset
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.RequestParserReset
+[       OK ] RequestParserTest.RequestParserReset (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.RequestParserReset" end time: Jun 09 23:56 UTC
+"RequestParserTest.RequestParserReset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/97 Testing: RequestParserTest.GETBadHeaderLineStartSpecial
+73/97 Test: RequestParserTest.GETBadHeaderLineStartSpecial
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETBadHeaderLineStartSpecial" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETBadHeaderLineStartSpecial" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETBadHeaderLineStartSpecial
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETBadHeaderLineStartSpecial
+[       OK ] RequestParserTest.GETBadHeaderLineStartSpecial (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETBadHeaderLineStartSpecial" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETBadHeaderLineStartSpecial" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/97 Testing: RequestParserTest.GETBadHeaderLineStartNotChar
+74/97 Test: RequestParserTest.GETBadHeaderLineStartNotChar
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETBadHeaderLineStartNotChar" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETBadHeaderLineStartNotChar" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETBadHeaderLineStartNotChar
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETBadHeaderLineStartNotChar
+[       OK ] RequestParserTest.GETBadHeaderLineStartNotChar (0 ms)
+[----------] 1 test from RequestParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETBadHeaderLineStartNotChar" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETBadHeaderLineStartNotChar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/97 Testing: RequestParserTest.GETMethodStartNotChar
+75/97 Test: RequestParserTest.GETMethodStartNotChar
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.GETMethodStartNotChar" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.GETMethodStartNotChar" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.GETMethodStartNotChar
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.GETMethodStartNotChar
+[       OK ] RequestParserTest.GETMethodStartNotChar (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.GETMethodStartNotChar" end time: Jun 09 23:56 UTC
+"RequestParserTest.GETMethodStartNotChar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/97 Testing: RequestParserTest.HeaderLWS1
+76/97 Test: RequestParserTest.HeaderLWS1
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.HeaderLWS1" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.HeaderLWS1" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.HeaderLWS1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.HeaderLWS1
+[       OK ] RequestParserTest.HeaderLWS1 (0 ms)
+[----------] 1 test from RequestParserTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.HeaderLWS1" end time: Jun 09 23:56 UTC
+"RequestParserTest.HeaderLWS1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/97 Testing: RequestParserTest.HeaderLWS4
+77/97 Test: RequestParserTest.HeaderLWS4
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.HeaderLWS4" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.HeaderLWS4" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.HeaderLWS4
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.HeaderLWS4
+[       OK ] RequestParserTest.HeaderLWS4 (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.HeaderLWS4" end time: Jun 09 23:56 UTC
+"RequestParserTest.HeaderLWS4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/97 Testing: RequestParserTest.ConnectionKeepAlive
+78/97 Test: RequestParserTest.ConnectionKeepAlive
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_parser_handler_test" "--gtest_filter=RequestParserTest.ConnectionKeepAlive" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"RequestParserTest.ConnectionKeepAlive" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = RequestParserTest.ConnectionKeepAlive
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestParserTest
+[ RUN      ] RequestParserTest.ConnectionKeepAlive
+[       OK ] RequestParserTest.ConnectionKeepAlive (0 ms)
+[----------] 1 test from RequestParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RequestParserTest.ConnectionKeepAlive" end time: Jun 09 23:56 UTC
+"RequestParserTest.ConnectionKeepAlive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/97 Testing: Proxy_Request_HandlerTest.UCLATest
+79/97 Test: Proxy_Request_HandlerTest.UCLATest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_handler_proxy_test" "--gtest_filter=Proxy_Request_HandlerTest.UCLATest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"Proxy_Request_HandlerTest.UCLATest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Proxy_Request_HandlerTest.UCLATest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Proxy_Request_HandlerTest
+[ RUN      ] Proxy_Request_HandlerTest.UCLATest
+[2020-06-09 23:56:37.450506] [0x00007f97c5a10740] [info]    Parsing configuration file...
+[2020-06-09 23:56:37.451318] [0x00007f97c5a10740] [info]    Port number: 8080
+[2020-06-09 23:56:37.451349] [0x00007f97c5a10740] [info]    Proxy servlet client location: /UCLAtest
+[2020-06-09 23:56:37.451358] [0x00007f97c5a10740] [info]    Proxy servlet server location: www.ucla.edu
+[2020-06-09 23:56:37.451370] [0x00007f97c5a10740] [info]    Proxy servlet server port number: 80
+[2020-06-09 23:56:37.451403] [0x00007f97c5a10740] [info]    Proxy servlet client location: /exampletest
+[2020-06-09 23:56:37.451415] [0x00007f97c5a10740] [info]    Proxy servlet server location: www.example.com
+[2020-06-09 23:56:37.451426] [0x00007f97c5a10740] [info]    Proxy servlet server port number: 80
+[2020-06-09 23:56:37.451443] [0x00007f97c5a10740] [info]    Parsed configuration file successfully.
+[2020-06-09 23:56:37.457214] [0x00007f97c5a10740] [info]    [ResponseMetrics]Request_Handler: proxy
+[2020-06-09 23:56:37.457228] [0x00007f97c5a10740] [info]    Proxying Request to URL www.ucla.edu at port 80 with URI /favicon.ico
+[       OK ] Proxy_Request_HandlerTest.UCLATest (429 ms)
+[----------] 1 test from Proxy_Request_HandlerTest (430 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (430 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"Proxy_Request_HandlerTest.UCLATest" end time: Jun 09 23:56 UTC
+"Proxy_Request_HandlerTest.UCLATest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/97 Testing: Proxy_Request_HandlerTest.ExampleTest
+80/97 Test: Proxy_Request_HandlerTest.ExampleTest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_handler_proxy_test" "--gtest_filter=Proxy_Request_HandlerTest.ExampleTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"Proxy_Request_HandlerTest.ExampleTest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Proxy_Request_HandlerTest.ExampleTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Proxy_Request_HandlerTest
+[ RUN      ] Proxy_Request_HandlerTest.ExampleTest
+[2020-06-09 23:56:37.900412] [0x00007f4cafc98740] [info]    Parsing configuration file...
+[2020-06-09 23:56:37.900447] [0x00007f4cafc98740] [info]    Port number: 8080
+[2020-06-09 23:56:37.900487] [0x00007f4cafc98740] [info]    Proxy servlet client location: /UCLAtest
+[2020-06-09 23:56:37.900501] [0x00007f4cafc98740] [info]    Proxy servlet server location: www.ucla.edu
+[2020-06-09 23:56:37.900514] [0x00007f4cafc98740] [info]    Proxy servlet server port number: 80
+[2020-06-09 23:56:37.900551] [0x00007f4cafc98740] [info]    Proxy servlet client location: /exampletest
+[2020-06-09 23:56:37.900565] [0x00007f4cafc98740] [info]    Proxy servlet server location: www.example.com
+[2020-06-09 23:56:37.900578] [0x00007f4cafc98740] [info]    Proxy servlet server port number: 80
+[2020-06-09 23:56:37.900598] [0x00007f4cafc98740] [info]    Parsed configuration file successfully.
+[2020-06-09 23:56:37.903856] [0x00007f4cafc98740] [info]    [ResponseMetrics]Request_Handler: proxy
+[2020-06-09 23:56:37.903877] [0x00007f4cafc98740] [info]    Proxying Request to URL www.example.com at port 80 with URI /
+[       OK ] Proxy_Request_HandlerTest.ExampleTest (228 ms)
+[----------] 1 test from Proxy_Request_HandlerTest (228 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (228 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"Proxy_Request_HandlerTest.ExampleTest" end time: Jun 09 23:56 UTC
+"Proxy_Request_HandlerTest.ExampleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/97 Testing: ResponseTest.ToBufferOKReply
+81/97 Test: ResponseTest.ToBufferOKReply
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/response_test" "--gtest_filter=ResponseTest.ToBufferOKReply" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"ResponseTest.ToBufferOKReply" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ResponseTest.ToBufferOKReply
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ResponseTest
+[ RUN      ] ResponseTest.ToBufferOKReply
+[       OK ] ResponseTest.ToBufferOKReply (0 ms)
+[----------] 1 test from ResponseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"ResponseTest.ToBufferOKReply" end time: Jun 09 23:56 UTC
+"ResponseTest.ToBufferOKReply" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/97 Testing: ResponseTest.ToBufferBADReply
+82/97 Test: ResponseTest.ToBufferBADReply
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/response_test" "--gtest_filter=ResponseTest.ToBufferBADReply" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"ResponseTest.ToBufferBADReply" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ResponseTest.ToBufferBADReply
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ResponseTest
+[ RUN      ] ResponseTest.ToBufferBADReply
+[       OK ] ResponseTest.ToBufferBADReply (0 ms)
+[----------] 1 test from ResponseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ResponseTest.ToBufferBADReply" end time: Jun 09 23:56 UTC
+"ResponseTest.ToBufferBADReply" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/97 Testing: ResponseTest.ToBufferOtherReply
+83/97 Test: ResponseTest.ToBufferOtherReply
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/response_test" "--gtest_filter=ResponseTest.ToBufferOtherReply" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"ResponseTest.ToBufferOtherReply" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ResponseTest.ToBufferOtherReply
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ResponseTest
+[ RUN      ] ResponseTest.ToBufferOtherReply
+[       OK ] ResponseTest.ToBufferOtherReply (0 ms)
+[----------] 1 test from ResponseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ResponseTest.ToBufferOtherReply" end time: Jun 09 23:56 UTC
+"ResponseTest.ToBufferOtherReply" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/97 Testing: ResponseTest.ReplyToBuffersTest
+84/97 Test: ResponseTest.ReplyToBuffersTest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/response_test" "--gtest_filter=ResponseTest.ReplyToBuffersTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"ResponseTest.ReplyToBuffersTest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ResponseTest.ReplyToBuffersTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ResponseTest
+[ RUN      ] ResponseTest.ReplyToBuffersTest
+[       OK ] ResponseTest.ReplyToBuffersTest (0 ms)
+[----------] 1 test from ResponseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ResponseTest.ReplyToBuffersTest" end time: Jun 09 23:56 UTC
+"ResponseTest.ReplyToBuffersTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/97 Testing: ResponseTest.StockRepliesToStringOtherRequest
+85/97 Test: ResponseTest.StockRepliesToStringOtherRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/response_test" "--gtest_filter=ResponseTest.StockRepliesToStringOtherRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"ResponseTest.StockRepliesToStringOtherRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ResponseTest.StockRepliesToStringOtherRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ResponseTest
+[ RUN      ] ResponseTest.StockRepliesToStringOtherRequest
+[       OK ] ResponseTest.StockRepliesToStringOtherRequest (0 ms)
+[----------] 1 test from ResponseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ResponseTest.StockRepliesToStringOtherRequest" end time: Jun 09 23:56 UTC
+"ResponseTest.StockRepliesToStringOtherRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/97 Testing: ResponseParserTest.ParseContentLengthResponse
+86/97 Test: ResponseParserTest.ParseContentLengthResponse
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/response_parser_test" "--gtest_filter=ResponseParserTest.ParseContentLengthResponse" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"ResponseParserTest.ParseContentLengthResponse" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ResponseParserTest.ParseContentLengthResponse
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ResponseParserTest
+[ RUN      ] ResponseParserTest.ParseContentLengthResponse
+[       OK ] ResponseParserTest.ParseContentLengthResponse (0 ms)
+[----------] 1 test from ResponseParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ResponseParserTest.ParseContentLengthResponse" end time: Jun 09 23:56 UTC
+"ResponseParserTest.ParseContentLengthResponse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/97 Testing: ResponseParserTest.ParseContentLengthTwoPartResponse
+87/97 Test: ResponseParserTest.ParseContentLengthTwoPartResponse
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/response_parser_test" "--gtest_filter=ResponseParserTest.ParseContentLengthTwoPartResponse" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"ResponseParserTest.ParseContentLengthTwoPartResponse" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ResponseParserTest.ParseContentLengthTwoPartResponse
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ResponseParserTest
+[ RUN      ] ResponseParserTest.ParseContentLengthTwoPartResponse
+[       OK ] ResponseParserTest.ParseContentLengthTwoPartResponse (0 ms)
+[----------] 1 test from ResponseParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"ResponseParserTest.ParseContentLengthTwoPartResponse" end time: Jun 09 23:56 UTC
+"ResponseParserTest.ParseContentLengthTwoPartResponse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/97 Testing: ResponseParserTest.ParseChunkedResponse
+88/97 Test: ResponseParserTest.ParseChunkedResponse
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/response_parser_test" "--gtest_filter=ResponseParserTest.ParseChunkedResponse" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"ResponseParserTest.ParseChunkedResponse" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ResponseParserTest.ParseChunkedResponse
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ResponseParserTest
+[ RUN      ] ResponseParserTest.ParseChunkedResponse
+[       OK ] ResponseParserTest.ParseChunkedResponse (0 ms)
+[----------] 1 test from ResponseParserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ResponseParserTest.ParseChunkedResponse" end time: Jun 09 23:56 UTC
+"ResponseParserTest.ParseChunkedResponse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/97 Testing: ResponseParserTest.ParseUCLAChunkedResponse
+89/97 Test: ResponseParserTest.ParseUCLAChunkedResponse
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/response_parser_test" "--gtest_filter=ResponseParserTest.ParseUCLAChunkedResponse" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"ResponseParserTest.ParseUCLAChunkedResponse" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ResponseParserTest.ParseUCLAChunkedResponse
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ResponseParserTest
+[ RUN      ] ResponseParserTest.ParseUCLAChunkedResponse
+[       OK ] ResponseParserTest.ParseUCLAChunkedResponse (43 ms)
+[----------] 1 test from ResponseParserTest (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (43 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"ResponseParserTest.ParseUCLAChunkedResponse" end time: Jun 09 23:56 UTC
+"ResponseParserTest.ParseUCLAChunkedResponse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/97 Testing: HealthRequestHandler.SimpleGetRequest
+90/97 Test: HealthRequestHandler.SimpleGetRequest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_handler_health_test" "--gtest_filter=HealthRequestHandler.SimpleGetRequest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"HealthRequestHandler.SimpleGetRequest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = HealthRequestHandler.SimpleGetRequest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HealthRequestHandler
+[ RUN      ] HealthRequestHandler.SimpleGetRequest
+[2020-06-09 23:56:38.483800] [0x00007f62fbf96740] [info]    [ResponseMetrics]Request_Handler: health
+[2020-06-09 23:56:38.483830] [0x00007f62fbf96740] [info]    Health Request ok: success.
+[       OK ] HealthRequestHandler.SimpleGetRequest (0 ms)
+[----------] 1 test from HealthRequestHandler (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"HealthRequestHandler.SimpleGetRequest" end time: Jun 09 23:56 UTC
+"HealthRequestHandler.SimpleGetRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/97 Testing: Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest
+91/97 Test: Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_handler_blog_upload_test" "--gtest_filter=Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Blog_Upload_Request_Handler_Test
+[ RUN      ] Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest
+[2020-06-09 23:56:38.561635] [0x00007f568a282140] [info]    Parsing configuration file...
+[2020-06-09 23:56:38.562930] [0x00007f568a282140] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:38.563009] [0x00007f568a282140] [info]    Blog database username: ucla
+[2020-06-09 23:56:38.563031] [0x00007f568a282140] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:38.563040] [0x00007f568a282140] [info]    Blog database password: ucla
+[2020-06-09 23:56:38.563057] [0x00007f568a282140] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:38.563064] [0x00007f568a282140] [info]    Blog database IP location: 35.233.247.136
+[2020-06-09 23:56:38.563086] [0x00007f568a282140] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:38.563097] [0x00007f568a282140] [info]    Blog database port: 5432
+[2020-06-09 23:56:38.563122] [0x00007f568a282140] [info]    Parsed configuration file successfully.
+[2020-06-09 23:56:38.563734] [0x00007f568a282140] [info]    [ResponseMetrics]Request_Handler: Blog Post Upload
+[2020-06-09 23:56:38.563750] [0x00007f568a282140] [info]    Sending back blog upload form.
+[2020-06-09 23:56:38.563870] [0x00007f568a282140] [error]   Invalid postid: -1
+[       OK ] Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest (3 ms)
+[----------] 1 test from Blog_Upload_Request_Handler_Test (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest" end time: Jun 09 23:56 UTC
+"Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/97 Testing: Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest
+92/97 Test: Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/request_handler_blog_upload_test" "--gtest_filter=Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Blog_Upload_Request_Handler_Test
+[ RUN      ] Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest
+[2020-06-09 23:56:38.586572] [0x00007f2b052a9140] [info]    Parsing configuration file...
+[2020-06-09 23:56:38.586615] [0x00007f2b052a9140] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:38.586628] [0x00007f2b052a9140] [info]    Blog database username: ucla
+[2020-06-09 23:56:38.586650] [0x00007f2b052a9140] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:38.586662] [0x00007f2b052a9140] [info]    Blog database password: ucla
+[2020-06-09 23:56:38.586684] [0x00007f2b052a9140] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:38.586696] [0x00007f2b052a9140] [info]    Blog database IP location: 35.233.247.136
+[2020-06-09 23:56:38.586717] [0x00007f2b052a9140] [info]    Blog servlet client location: /blog
+[2020-06-09 23:56:38.586729] [0x00007f2b052a9140] [info]    Blog database port: 5432
+[2020-06-09 23:56:38.586749] [0x00007f2b052a9140] [info]    Parsed configuration file successfully.
+[2020-06-09 23:56:38.587084] [0x00007f2b052a9140] [info]    [ResponseMetrics]Request_Handler: Blog Post Upload
+[2020-06-09 23:56:38.587156] [0x00007f2b052a9140] [info]    Sending back blog upload form.
+[2020-06-09 23:56:38.587176] [0x00007f2b052a9140] [info]    Finished attempt to insert blog post with postid: 1
+[2020-06-09 23:56:38.587204] [0x00007f2b052a9140] [info]    [ResponseMetrics]Request_Handler: Blog Post Upload
+[2020-06-09 23:56:38.587216] [0x00007f2b052a9140] [info]    Sending back blog upload form.
+[2020-06-09 23:56:38.587229] [0x00007f2b052a9140] [info]    Finished attempt to obtain blog post with postid: 1
+[       OK ] Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest (2 ms)
+[----------] 1 test from Blog_Upload_Request_Handler_Test (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest" end time: Jun 09 23:56 UTC
+"Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/97 Testing: MockDatabaseTest.BlogNone
+93/97 Test: MockDatabaseTest.BlogNone
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/mock_database_test" "--gtest_filter=MockDatabaseTest.BlogNone" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"MockDatabaseTest.BlogNone" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = MockDatabaseTest.BlogNone
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MockDatabaseTest
+[ RUN      ] MockDatabaseTest.BlogNone
+[       OK ] MockDatabaseTest.BlogNone (0 ms)
+[----------] 1 test from MockDatabaseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MockDatabaseTest.BlogNone" end time: Jun 09 23:56 UTC
+"MockDatabaseTest.BlogNone" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/97 Testing: MockDatabaseTest.BlogDNE
+94/97 Test: MockDatabaseTest.BlogDNE
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/mock_database_test" "--gtest_filter=MockDatabaseTest.BlogDNE" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"MockDatabaseTest.BlogDNE" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = MockDatabaseTest.BlogDNE
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MockDatabaseTest
+[ RUN      ] MockDatabaseTest.BlogDNE
+[2020-06-09 23:56:38.611218] [0x00007f75a5ec0740] [error]   Invalid postid: 4
+[       OK ] MockDatabaseTest.BlogDNE (0 ms)
+[----------] 1 test from MockDatabaseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MockDatabaseTest.BlogDNE" end time: Jun 09 23:56 UTC
+"MockDatabaseTest.BlogDNE" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/97 Testing: MockDatabaseTest.BlogInsertGet
+95/97 Test: MockDatabaseTest.BlogInsertGet
+Command: "/usr/src/projects/cs130/mrjk-web-server/build/bin/mock_database_test" "--gtest_filter=MockDatabaseTest.BlogInsertGet" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/cs130/mrjk-web-server/tests
+"MockDatabaseTest.BlogInsertGet" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = MockDatabaseTest.BlogInsertGet
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MockDatabaseTest
+[ RUN      ] MockDatabaseTest.BlogInsertGet
+[2020-06-09 23:56:38.622817] [0x00007f3cef364740] [info]    Finished attempt to insert blog post with postid: 1
+[2020-06-09 23:56:38.622833] [0x00007f3cef364740] [info]    Finished attempt to insert blog post with postid: 2
+[2020-06-09 23:56:38.622846] [0x00007f3cef364740] [info]    Finished attempt to insert blog post with postid: 3
+[2020-06-09 23:56:38.622852] [0x00007f3cef364740] [info]    Finished attempt to insert blog post with postid: 4
+[2020-06-09 23:56:38.622864] [0x00007f3cef364740] [info]    Finished attempt to obtain blog post with postid: 1
+[2020-06-09 23:56:38.622873] [0x00007f3cef364740] [info]    Finished attempt to obtain blog post with postid: 2
+[2020-06-09 23:56:38.622886] [0x00007f3cef364740] [info]    Finished attempt to obtain blog post with postid: 3
+[2020-06-09 23:56:38.622899] [0x00007f3cef364740] [info]    Finished attempt to obtain blog post with postid: 4
+[       OK ] MockDatabaseTest.BlogInsertGet (0 ms)
+[----------] 1 test from MockDatabaseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MockDatabaseTest.BlogInsertGet" end time: Jun 09 23:56 UTC
+"MockDatabaseTest.BlogInsertGet" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/97 Testing: integration_test
+96/97 Test: integration_test
+Command: "/usr/src/projects/cs130/mrjk-web-server/tests/integration_test.sh"
+Directory: /usr/src/projects/cs130/mrjk-web-server/build
+"integration_test" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+2020-06-09 23:56:38.708894 | 0x00007fac67379140 | info | Parsing configuration file...
+2020-06-09 23:56:38.714710 | 0x00007fac67379140 | info | Port number: 8080
+2020-06-09 23:56:38.715239 | 0x00007fac67379140 | info | Echo location: /echo
+2020-06-09 23:56:38.715619 | 0x00007fac67379140 | info | Echo location: /echo2
+2020-06-09 23:56:38.716003 | 0x00007fac67379140 | info | Echo location: /static/masked
+2020-06-09 23:56:38.716410 | 0x00007fac67379140 | info | Static servlet client location: /static
+2020-06-09 23:56:38.716807 | 0x00007fac67379140 | info | Static servlet server location: ../files
+2020-06-09 23:56:38.717274 | 0x00007fac67379140 | info | Static servlet client location: /static2
+2020-06-09 23:56:38.717650 | 0x00007fac67379140 | info | Static servlet server location: ../files
+2020-06-09 23:56:38.718069 | 0x00007fac67379140 | info | Static servlet client location: /sta tic
+2020-06-09 23:56:38.718452 | 0x00007fac67379140 | info | Static servlet server location: ../files
+2020-06-09 23:56:38.718827 | 0x00007fac67379140 | info | Status location: /status
+2020-06-09 23:56:38.719268 | 0x00007fac67379140 | info | Health location: /health
+2020-06-09 23:56:38.719646 | 0x00007fac67379140 | info | Parsed configuration file successfully.
+2020-06-09 23:56:38.720393 | 0x00007fac67379140 | info | StatusHandler found list of existing handlers.
+2020-06-09 23:56:38.720789 | 0x00007fac67379140 | info | ProcessID of server is: 15239
+2020-06-09 23:56:38.721303 | 0x00007fac67379140 | info | Successfully started web server using port number 8080
+2020-06-09 23:56:39.165796 | 0x00007fac5e603700 | info | Successfully started new session.
+2020-06-09 23:56:39.166672 | 0x00007fac5e603700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57306
+2020-06-09 23:56:39.167790 | 0x00007fac5ce00700 | info | Parsing request...
+2020-06-09 23:56:39.168905 | 0x00007fac5ce00700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:39.169597 | 0x00007fac5ce00700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.170330 | 0x00007fac5ce00700 | info | Recieved request with URI /echo and a status type 200
+2020-06-09 23:56:39.171004 | 0x00007fac5ce00700 | info | Parsed request successfully.
+2020-06-09 23:56:39.171824 | 0x00007fac5ce00700 | info | [ResponseMetrics]RequestPath: /echo
+2020-06-09 23:56:39.172536 | 0x00007fac5ce00700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.173254 | 0x00007fac5ce00700 | info | 0 /echo HTTP/1.1 200 74
+2020-06-09 23:56:39.174019 | 0x00007fac5ce00700 | info | Shutting down session.
+2020-06-09 23:56:39.231570 | 0x00007fac5de02700 | info | Successfully started new session.
+2020-06-09 23:56:39.231997 | 0x00007fac5de02700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57308
+2020-06-09 23:56:39.232612 | 0x00007fac5de02700 | info | Parsing request...
+2020-06-09 23:56:39.233279 | 0x00007fac5de02700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:39.233657 | 0x00007fac5de02700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.234062 | 0x00007fac5de02700 | info | Recieved request with URI /static/masked and a status type 200
+2020-06-09 23:56:39.234464 | 0x00007fac5de02700 | info | Parsed request successfully.
+2020-06-09 23:56:39.234774 | 0x00007fac5de02700 | info | [ResponseMetrics]RequestPath: /static/masked
+2020-06-09 23:56:39.235245 | 0x00007fac5de02700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.235653 | 0x00007fac5de02700 | info | 0 /static/masked HTTP/1.1 200 83
+2020-06-09 23:56:39.236220 | 0x00007fac5de02700 | info | Shutting down session.
+2020-06-09 23:56:39.266195 | 0x00007fac5ce00700 | info | Successfully started new session.
+2020-06-09 23:56:39.266633 | 0x00007fac5ce00700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57310
+2020-06-09 23:56:39.267681 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:39.268699 | 0x00007fac5e603700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:39.269304 | 0x00007fac5e603700 | info | Currently serving static requests on path: /static/helloworld.txt
+2020-06-09 23:56:39.271488 | 0x00007fac5e603700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.271963 | 0x00007fac5e603700 | info | Recieved request with URI /static/helloworld.txt and a status type 200
+2020-06-09 23:56:39.272391 | 0x00007fac5e603700 | info | Parsed request successfully.
+2020-06-09 23:56:39.272825 | 0x00007fac5e603700 | info | [ResponseMetrics]RequestPath: /static/helloworld.txt
+2020-06-09 23:56:39.273237 | 0x00007fac5e603700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.273628 | 0x00007fac5e603700 | info | 0 /static/helloworld.txt HTTP/1.1 200 91
+2020-06-09 23:56:39.274230 | 0x00007fac5d601700 | info | Shutting down session.
+2020-06-09 23:56:39.289517 | 0x00007fac5de02700 | info | Successfully started new session.
+2020-06-09 23:56:39.289970 | 0x00007fac5de02700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57312
+2020-06-09 23:56:39.290354 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:39.290743 | 0x00007fac5e603700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:39.291193 | 0x00007fac5e603700 | info | Currently serving static requests on path: /sta tic/helloworld.txt
+2020-06-09 23:56:39.292861 | 0x00007fac5e603700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.293391 | 0x00007fac5e603700 | info | Recieved request with URI /sta%20tic/helloworld.txt and a status type 200
+2020-06-09 23:56:39.293737 | 0x00007fac5e603700 | info | Parsed request successfully.
+2020-06-09 23:56:39.294151 | 0x00007fac5e603700 | info | [ResponseMetrics]RequestPath: /sta%20tic/helloworld.txt
+2020-06-09 23:56:39.294562 | 0x00007fac5e603700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.294910 | 0x00007fac5e603700 | info | 0 /sta%20tic/helloworld.txt HTTP/1.1 200 94
+2020-06-09 23:56:39.295453 | 0x00007fac5e603700 | info | Shutting down session.
+2020-06-09 23:56:39.312454 | 0x00007fac5d601700 | info | Successfully started new session.
+2020-06-09 23:56:39.313083 | 0x00007fac5d601700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57314
+2020-06-09 23:56:39.313957 | 0x00007fac5d601700 | info | Parsing request...
+2020-06-09 23:56:39.314509 | 0x00007fac5d601700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:39.315095 | 0x00007fac5d601700 | info | Currently serving static requests on path: /static/subdirectory/hello world.txt
+2020-06-09 23:56:39.317673 | 0x00007fac5d601700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.318042 | 0x00007fac5d601700 | info | Recieved request with URI /static/subdirectory/hello%20world.txt and a status type 200
+2020-06-09 23:56:39.318432 | 0x00007fac5d601700 | info | Parsed request successfully.
+2020-06-09 23:56:39.318812 | 0x00007fac5d601700 | info | [ResponseMetrics]RequestPath: /static/subdirectory/hello%20world.txt
+2020-06-09 23:56:39.319215 | 0x00007fac5d601700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.319587 | 0x00007fac5d601700 | info | 0 /static/subdirectory/hello%20world.txt HTTP/1.1 200 107
+2020-06-09 23:56:39.320048 | 0x00007fac5d601700 | info | Shutting down session.
+2020-06-09 23:56:39.333805 | 0x00007fac5e603700 | info | Successfully started new session.
+2020-06-09 23:56:39.334247 | 0x00007fac5e603700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57316
+2020-06-09 23:56:39.334611 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:39.334903 | 0x00007fac5e603700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:39.335264 | 0x00007fac5e603700 | info | Currently serving static requests on path: /static/subdirectory/two  spaces.jpg
+2020-06-09 23:56:39.338554 | 0x00007fac5e603700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.340474 | 0x00007fac5e603700 | info | Recieved request with URI /static/subdirectory/two%20%20spaces.jpg and a status type 200
+2020-06-09 23:56:39.340968 | 0x00007fac5e603700 | info | Parsed request successfully.
+2020-06-09 23:56:39.341342 | 0x00007fac5e603700 | info | [ResponseMetrics]RequestPath: /static/subdirectory/two%20%20spaces.jpg
+2020-06-09 23:56:39.341824 | 0x00007fac5e603700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.342353 | 0x00007fac5e603700 | info | 0 /static/subdirectory/two%20%20spaces.jpg HTTP/1.1 200 109
+2020-06-09 23:56:39.342987 | 0x00007fac5e603700 | info | Shutting down session.
+2020-06-09 23:56:39.359947 | 0x00007fac5ce00700 | info | Successfully started new session.
+2020-06-09 23:56:39.360351 | 0x00007fac5ce00700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57318
+2020-06-09 23:56:39.360726 | 0x00007fac5ce00700 | info | Parsing request...
+2020-06-09 23:56:39.361011 | 0x00007fac5ce00700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:39.361311 | 0x00007fac5ce00700 | info | Currently serving static requests on path: /static/nothanks.jpg
+2020-06-09 23:56:39.363816 | 0x00007fac5ce00700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.364076 | 0x00007fac5ce00700 | info | Recieved request with URI /static/nothanks.jpg and a status type 200
+2020-06-09 23:56:39.364430 | 0x00007fac5ce00700 | info | Parsed request successfully.
+2020-06-09 23:56:39.364724 | 0x00007fac5ce00700 | info | [ResponseMetrics]RequestPath: /static/nothanks.jpg
+2020-06-09 23:56:39.365011 | 0x00007fac5ce00700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.365333 | 0x00007fac5ce00700 | info | 0 /static/nothanks.jpg HTTP/1.1 200 89
+2020-06-09 23:56:39.365655 | 0x00007fac5ce00700 | info | Shutting down session.
+2020-06-09 23:56:39.388118 | 0x00007fac5e603700 | info | Successfully started new session.
+2020-06-09 23:56:39.388811 | 0x00007fac5e603700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57320
+2020-06-09 23:56:39.389416 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:39.389758 | 0x00007fac5e603700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:39.390127 | 0x00007fac5e603700 | info | Currently serving static requests on path: /static/subdirectory/helloworld.png
+2020-06-09 23:56:39.393831 | 0x00007fac5e603700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.394432 | 0x00007fac5e603700 | info | Recieved request with URI /static/subdirectory/helloworld.png and a status type 200
+2020-06-09 23:56:39.394889 | 0x00007fac5e603700 | info | Parsed request successfully.
+2020-06-09 23:56:39.395350 | 0x00007fac5e603700 | info | [ResponseMetrics]RequestPath: /static/subdirectory/helloworld.png
+2020-06-09 23:56:39.395825 | 0x00007fac5e603700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.396452 | 0x00007fac5e603700 | info | 0 /static/subdirectory/helloworld.png HTTP/1.1 200 104
+2020-06-09 23:56:39.397411 | 0x00007fac5e603700 | info | Shutting down session.
+2020-06-09 23:56:39.419488 | 0x00007fac5d601700 | info | Successfully started new session.
+2020-06-09 23:56:39.419965 | 0x00007fac5d601700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57322
+2020-06-09 23:56:39.420431 | 0x00007fac5d601700 | info | Parsing request...
+2020-06-09 23:56:39.420831 | 0x00007fac5d601700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:39.421317 | 0x00007fac5d601700 | info | Currently serving static requests on path: /static/hack.gif
+2020-06-09 23:56:39.582369 | 0x00007fac5d601700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.582935 | 0x00007fac5d601700 | info | Recieved request with URI /static/hack.gif and a status type 200
+2020-06-09 23:56:39.583420 | 0x00007fac5d601700 | info | Parsed request successfully.
+2020-06-09 23:56:39.583837 | 0x00007fac5d601700 | info | [ResponseMetrics]RequestPath: /static/hack.gif
+2020-06-09 23:56:39.584276 | 0x00007fac5d601700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.584745 | 0x00007fac5d601700 | info | 0 /static/hack.gif HTTP/1.1 200 85
+2020-06-09 23:56:39.587724 | 0x00007fac5d601700 | info | Shutting down session.
+2020-06-09 23:56:39.928204 | 0x00007fac5e603700 | info | Successfully started new session.
+2020-06-09 23:56:39.928769 | 0x00007fac5e603700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57324
+2020-06-09 23:56:39.929352 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:39.929970 | 0x00007fac5e603700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:39.930666 | 0x00007fac5e603700 | info | Currently serving static requests on path: /static/kek.html
+2020-06-09 23:56:39.946273 | 0x00007fac5e603700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:39.946861 | 0x00007fac5e603700 | info | Recieved request with URI /static/kek.html and a status type 200
+2020-06-09 23:56:39.947431 | 0x00007fac5e603700 | info | Parsed request successfully.
+2020-06-09 23:56:39.947913 | 0x00007fac5e603700 | info | [ResponseMetrics]RequestPath: /static/kek.html
+2020-06-09 23:56:39.948375 | 0x00007fac5e603700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:39.948851 | 0x00007fac5e603700 | info | 0 /static/kek.html HTTP/1.1 200 85
+2020-06-09 23:56:39.949532 | 0x00007fac5e603700 | info | Shutting down session.
+2020-06-09 23:56:40.042693 | 0x00007fac5d601700 | info | Successfully started new session.
+2020-06-09 23:56:40.043328 | 0x00007fac5d601700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57326
+2020-06-09 23:56:40.044076 | 0x00007fac5d601700 | info | Parsing request...
+2020-06-09 23:56:40.044603 | 0x00007fac5d601700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:40.045416 | 0x00007fac5d601700 | info | Currently serving static requests on path: /static/zippitydooda.zip
+2020-06-09 23:56:40.050726 | 0x00007fac5d601700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:40.051337 | 0x00007fac5d601700 | info | Recieved request with URI /static/zippitydooda.zip and a status type 200
+2020-06-09 23:56:40.051896 | 0x00007fac5d601700 | info | Parsed request successfully.
+2020-06-09 23:56:40.052497 | 0x00007fac5d601700 | info | [ResponseMetrics]RequestPath: /static/zippitydooda.zip
+2020-06-09 23:56:40.053000 | 0x00007fac5d601700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:40.053525 | 0x00007fac5d601700 | info | 0 /static/zippitydooda.zip HTTP/1.1 200 93
+2020-06-09 23:56:40.054248 | 0x00007fac5d601700 | info | Shutting down session.
+2020-06-09 23:56:40.077534 | 0x00007fac5ce00700 | info | Successfully started new session.
+2020-06-09 23:56:40.078206 | 0x00007fac5ce00700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57328
+2020-06-09 23:56:40.078913 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:40.079402 | 0x00007fac5e603700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:40.079934 | 0x00007fac5e603700 | info | Currently serving static requests on path: /static/hulkhogan.pdf
+2020-06-09 23:56:40.086074 | 0x00007fac5e603700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:40.086781 | 0x00007fac5e603700 | info | Recieved request with URI /static/hulkhogan.pdf and a status type 200
+2020-06-09 23:56:40.087329 | 0x00007fac5e603700 | info | Parsed request successfully.
+2020-06-09 23:56:40.087777 | 0x00007fac5e603700 | info | [ResponseMetrics]RequestPath: /static/hulkhogan.pdf
+2020-06-09 23:56:40.088256 | 0x00007fac5e603700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:40.088667 | 0x00007fac5e603700 | info | 0 /static/hulkhogan.pdf HTTP/1.1 200 90
+2020-06-09 23:56:40.089330 | 0x00007fac5e603700 | info | Shutting down session.
+2020-06-09 23:56:40.120949 | 0x00007fac5de02700 | info | Successfully started new session.
+2020-06-09 23:56:40.121495 | 0x00007fac5de02700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57330
+2020-06-09 23:56:40.121995 | 0x00007fac5de02700 | info | Parsing request...
+2020-06-09 23:56:40.122480 | 0x00007fac5de02700 | info | [ResponseMetrics]Request_Handler: static
+2020-06-09 23:56:40.122896 | 0x00007fac5de02700 | info | Currently serving static requests on path: /static/nonexistent.txt
+2020-06-09 23:56:40.123750 | 0x00007fac5de02700 | error | Could not open file at path: ../files/nonexistent.txt
+2020-06-09 23:56:40.124276 | 0x00007fac5de02700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:40.124705 | 0x00007fac5de02700 | info | Recieved request with URI /static/nonexistent.txt and a status type 404
+2020-06-09 23:56:40.125181 | 0x00007fac5de02700 | info | Parsed request successfully.
+2020-06-09 23:56:40.125625 | 0x00007fac5de02700 | info | [ResponseMetrics]RequestPath: /static/nonexistent.txt
+2020-06-09 23:56:40.126026 | 0x00007fac5de02700 | info | [ResponseMetrics]ResponseCode: 404
+2020-06-09 23:56:40.126484 | 0x00007fac5de02700 | info | 0 /static/nonexistent.txt HTTP/1.1 404 92
+2020-06-09 23:56:40.126945 | 0x00007fac5de02700 | info | Shutting down session.
+2020-06-09 23:56:40.143327 | 0x00007fac5e603700 | info | Successfully started new session.
+2020-06-09 23:56:40.143790 | 0x00007fac5e603700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57332
+2020-06-09 23:56:40.144331 | 0x00007fac5ce00700 | info | Parsing request...
+2020-06-09 23:56:40.144745 | 0x00007fac5ce00700 | info | [ResponseMetrics]Request_Handler: 404
+2020-06-09 23:56:40.145197 | 0x00007fac5ce00700 | info | Request not found: 404 error.
+2020-06-09 23:56:40.145570 | 0x00007fac5ce00700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:40.145957 | 0x00007fac5ce00700 | info | Recieved request with URI /static2939/nonexistentpath.txt and a status type 404
+2020-06-09 23:56:40.146426 | 0x00007fac5ce00700 | info | Parsed request successfully.
+2020-06-09 23:56:40.146833 | 0x00007fac5ce00700 | info | [ResponseMetrics]RequestPath: /static2939/nonexistentpath.txt
+2020-06-09 23:56:40.147260 | 0x00007fac5ce00700 | info | [ResponseMetrics]ResponseCode: 404
+2020-06-09 23:56:40.147650 | 0x00007fac5ce00700 | info | 0 /static2939/nonexistentpath.txt HTTP/1.1 404 100
+2020-06-09 23:56:40.148026 | 0x00007fac5ce00700 | info | Shutting down session.
+2020-06-09 23:56:40.164088 | 0x00007fac5de02700 | info | Successfully started new session.
+2020-06-09 23:56:40.164685 | 0x00007fac5de02700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57334
+2020-06-09 23:56:40.165302 | 0x00007fac5de02700 | info | Parsing request...
+2020-06-09 23:56:40.165858 | 0x00007fac5de02700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:40.166357 | 0x00007fac5de02700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:40.166719 | 0x00007fac5de02700 | info | Recieved request with URI /echo2 and a status type 200
+2020-06-09 23:56:40.167165 | 0x00007fac5de02700 | info | Parsed request successfully.
+2020-06-09 23:56:40.167529 | 0x00007fac5de02700 | info | [ResponseMetrics]RequestPath: /echo2
+2020-06-09 23:56:40.167880 | 0x00007fac5de02700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:40.168397 | 0x00007fac5de02700 | info | 2 /echo2 HTTP/1.1 200 407
+2020-06-09 23:56:40.168859 | 0x00007fac5de02700 | info | Shutting down session.
+2020-06-09 23:56:40.205120 | 0x00007fac5ce00700 | info | Successfully started new session.
+2020-06-09 23:56:40.205640 | 0x00007fac5ce00700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57336
+2020-06-09 23:56:40.206243 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:40.206717 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:40.207187 | 0x00007fac5e603700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:40.207626 | 0x00007fac5e603700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:40.207958 | 0x00007fac5e603700 | info | Recieved request with URI /echo and a status type 200
+2020-06-09 23:56:40.208399 | 0x00007fac5e603700 | info | Parsed request successfully.
+2020-06-09 23:56:40.208849 | 0x00007fac5e603700 | info | [ResponseMetrics]RequestPath: /echo
+2020-06-09 23:56:40.209352 | 0x00007fac5e603700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:40.209859 | 0x00007fac5e603700 | info | 2 /echo HTTP/1.0 200 1477
+2020-06-09 23:56:40.210439 | 0x00007fac5e603700 | info | Shutting down session.
+2020-06-09 23:56:40.253866 | 0x00007fac5de02700 | info | Successfully started new session.
+2020-06-09 23:56:40.254830 | 0x00007fac5de02700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57338
+2020-06-09 23:56:40.255584 | 0x00007fac5de02700 | info | Parsing request...
+2020-06-09 23:56:40.255987 | 0x00007fac5de02700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:40.256463 | 0x00007fac5de02700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:40.256882 | 0x00007fac5de02700 | info | Recieved request with URI /echo2 and a status type 200
+2020-06-09 23:56:40.257428 | 0x00007fac5de02700 | info | Parsed request successfully.
+2020-06-09 23:56:40.257825 | 0x00007fac5de02700 | info | [ResponseMetrics]RequestPath: /echo2
+2020-06-09 23:56:40.258255 | 0x00007fac5de02700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:40.258888 | 0x00007fac5de02700 | info | 0 /echo2 HTTP/1.1 200 99
+
+2020-06-09 23:56:40.577820 | 0x00007fac5e603700 | info | Successfully started new session.
+2020-06-09 23:56:40.578287 | 0x00007fac5e603700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57340
+2020-06-09 23:56:40.578705 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:40.579007 | 0x00007fac5e603700 | error | Request is bad. Invalid request, shutting down session.
+2020-06-09 23:56:40.579334 | 0x00007fac5e603700 | info | [ResponseMetrics]Request_Handler: 400
+2020-06-09 23:56:40.579666 | 0x00007fac5e603700 | info | [ResponseMetrics]RequestPath: 400
+2020-06-09 23:56:40.579998 | 0x00007fac5e603700 | info | [ResponseMetrics]ResponseCode: 400
+2020-06-09 23:56:40.580471 | 0x00007fac5e603700 | info | Shutting down session.
+2020-06-09 23:56:40.595734 | 0x00007fac5de02700 | info | Successfully started new session.
+2020-06-09 23:56:40.596304 | 0x00007fac5de02700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57342
+2020-06-09 23:56:40.596742 | 0x00007fac5de02700 | info | Parsing request...
+2020-06-09 23:56:40.597107 | 0x00007fac5de02700 | error | Request is bad. Invalid request, shutting down session.
+2020-06-09 23:56:40.597552 | 0x00007fac5de02700 | info | [ResponseMetrics]Request_Handler: 400
+2020-06-09 23:56:40.597871 | 0x00007fac5de02700 | info | [ResponseMetrics]RequestPath: 400
+2020-06-09 23:56:40.598258 | 0x00007fac5de02700 | info | [ResponseMetrics]ResponseCode: 400
+2020-06-09 23:56:40.598639 | 0x00007fac5de02700 | info | Shutting down session.
+2020-06-09 23:56:40.612771 | 0x00007fac5ce00700 | info | Successfully started new session.
+2020-06-09 23:56:40.613233 | 0x00007fac5ce00700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57344
+2020-06-09 23:56:40.613608 | 0x00007fac5ce00700 | info | Parsing request...
+2020-06-09 23:56:40.613920 | 0x00007fac5ce00700 | info | [ResponseMetrics]Request_Handler: status
+2020-06-09 23:56:40.614286 | 0x00007fac5ce00700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:40.614590 | 0x00007fac5ce00700 | info | Recieved request with URI /status and a status type 200
+2020-06-09 23:56:40.614896 | 0x00007fac5ce00700 | info | Parsed request successfully.
+2020-06-09 23:56:40.615240 | 0x00007fac5ce00700 | info | [ResponseMetrics]RequestPath: /status
+2020-06-09 23:56:40.615541 | 0x00007fac5ce00700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:40.615847 | 0x00007fac5ce00700 | info | 0 /status HTTP/1.1 200 76
+2020-06-09 23:56:40.616263 | 0x00007fac5ce00700 | info | Shutting down session.
+2020-06-09 23:56:40.698485 | 0x00007fac5e603700 | info | Successfully started new session.
+2020-06-09 23:56:40.699490 | 0x00007fac5e603700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57346
+2020-06-09 23:56:40.700175 | 0x00007fac5e603700 | info | Parsing request...
+2020-06-09 23:56:40.700496 | 0x00007fac5e603700 | info | [ResponseMetrics]Request_Handler: health
+2020-06-09 23:56:40.700908 | 0x00007fac5e603700 | info | Health Request ok: success.
+2020-06-09 23:56:40.701353 | 0x00007fac5e603700 | info | Status handler enabled, recording request.
+2020-06-09 23:56:40.701618 | 0x00007fac5e603700 | info | Recieved request with URI /health and a status type 200
+2020-06-09 23:56:40.702005 | 0x00007fac5e603700 | info | Parsed request successfully.
+2020-06-09 23:56:40.702375 | 0x00007fac5e603700 | info | [ResponseMetrics]RequestPath: /health
+2020-06-09 23:56:40.702668 | 0x00007fac5e603700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:40.702997 | 0x00007fac5e603700 | info | 0 /health HTTP/1.1 200 84
+2020-06-09 23:56:40.703455 | 0x00007fac5e603700 | info | Shutting down session.
+2020-06-09 23:56:40.729829 | 0x00007fac67379140 | info | Program terminated with SIGTERM
+2020-06-09 23:56:40.747211 | 0x00007f69a3943140 | info | Parsing configuration file...
+2020-06-09 23:56:40.755939 | 0x00007f69a3943140 | info | Port number: 8080
+2020-06-09 23:56:40.756470 | 0x00007f69a3943140 | info | Echo location: /echo
+2020-06-09 23:56:40.757071 | 0x00007f69a3943140 | info | Proxy servlet client location: /proxy
+2020-06-09 23:56:40.757798 | 0x00007f69a3943140 | info | Proxy servlet server location: localhost/echo
+2020-06-09 23:56:40.758443 | 0x00007f69a3943140 | info | Proxy servlet server port number: 8081
+2020-06-09 23:56:40.759038 | 0x00007f69a3943140 | info | Proxy servlet client location: /redirect
+2020-06-09 23:56:40.759621 | 0x00007f69a3943140 | info | Proxy servlet server location: localhost/echo
+2020-06-09 23:56:40.760159 | 0x00007f69a3943140 | info | Parsed configuration file successfully.
+2020-06-09 23:56:40.761181 | 0x00007f69a3943140 | info | ProcessID of server is: 15357
+2020-06-09 23:56:40.761750 | 0x00007f69a3943140 | info | Successfully started web server using port number 8080
+2020-06-09 23:56:41.259545 | 0x00007f329ed49140 | info | Parsing configuration file...
+2020-06-09 23:56:41.263494 | 0x00007f329ed49140 | info | Port number: 8081
+2020-06-09 23:56:41.264047 | 0x00007f329ed49140 | info | Echo location: /echo
+2020-06-09 23:56:41.264744 | 0x00007f329ed49140 | info | Proxy servlet client location: /proxy
+2020-06-09 23:56:41.265300 | 0x00007f329ed49140 | info | Proxy servlet server location: localhost/redirect
+2020-06-09 23:56:41.265768 | 0x00007f329ed49140 | info | Proxy servlet server port number: 8080
+2020-06-09 23:56:41.266398 | 0x00007f329ed49140 | info | Proxy servlet client location: /redirect
+2020-06-09 23:56:41.267163 | 0x00007f329ed49140 | info | Proxy servlet server location: localhost/redirect
+2020-06-09 23:56:41.267831 | 0x00007f329ed49140 | info | Parsed configuration file successfully.
+2020-06-09 23:56:41.269425 | 0x00007f329ed49140 | info | ProcessID of server is: 15363
+2020-06-09 23:56:41.270732 | 0x00007f329ed49140 | info | Successfully started web server using port number 8081
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     02020-06-09 23:56:41.769464 | 0x00007f699abcd700 | info | Successfully started new session.
+2020-06-09 23:56:41.769993 | 0x00007f699abcd700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57348
+2020-06-09 23:56:41.770429 | 0x00007f699abcd700 | info | Parsing request...
+2020-06-09 23:56:41.770864 | 0x00007f699abcd700 | info | [ResponseMetrics]Request_Handler: proxy
+2020-06-09 23:56:41.771266 | 0x00007f699abcd700 | info | Proxying Request to URL localhost at port 8081 with URI /echo
+2020-06-09 23:56:41.772311 | 0x00007f3295fd3700 | info | Successfully started new session.
+2020-06-09 23:56:41.772707 | 0x00007f3295fd3700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:45052
+2020-06-09 23:56:41.773225 | 0x00007f3295fd3700 | info | Parsing request...
+2020-06-09 23:56:41.773737 | 0x00007f3295fd3700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:41.774226 | 0x00007f3295fd3700 | info | Parsed request successfully.
+2020-06-09 23:56:41.774660 | 0x00007f3295fd3700 | info | [ResponseMetrics]RequestPath: /echo
+2020-06-09 23:56:41.775097 | 0x00007f3295fd3700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:41.775613 | 0x00007f3295fd3700 | info | 0 /echo HTTP/1.1 200 115
+2020-06-09 23:56:41.776493 | 0x00007f3295fd3700 | info | Shutting down session.
+2020-06-09 23:56:41.776958 | 0x00007f699abcd700 | info | Parsed request successfully.
+2020-06-09 23:56:41.777903 | 0x00007f699abcd700 | info | [ResponseMetrics]RequestPath: /proxy
+2020-06-09 23:56:41.778415 | 0x00007f699abcd700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:41.778770 | 0x00007f699abcd700 | info | 0 /proxy HTTP/1.1 200 83
+100   115  100   115    0     0   7666      0 --:--:-- --:--:-- --:--:--  8214
+2020-06-09 23:56:41.779260 | 0x00007f699abcd700 | info | Shutting down session.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     02020-06-09 23:56:41.804839 | 0x00007f32957d2700 | info | Successfully started new session.
+2020-06-09 23:56:41.805290 | 0x00007f32957d2700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:45054
+2020-06-09 23:56:41.805749 | 0x00007f32957d2700 | info | Parsing request...
+2020-06-09 23:56:41.806202 | 0x00007f32957d2700 | info | [ResponseMetrics]Request_Handler: proxy
+2020-06-09 23:56:41.806565 | 0x00007f32957d2700 | info | Proxying Request to URL localhost at port 8080 with URI /redirect
+2020-06-09 23:56:41.808249 | 0x00007f699a3cc700 | info | Successfully started new session.
+2020-06-09 23:56:41.808653 | 0x00007f699a3cc700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57354
+2020-06-09 23:56:41.809316 | 0x00007f699a3cc700 | info | Parsing request...
+2020-06-09 23:56:41.809786 | 0x00007f699a3cc700 | info | Parsed request successfully.
+2020-06-09 23:56:41.810239 | 0x00007f699a3cc700 | info | [ResponseMetrics]RequestPath: /redirect
+2020-06-09 23:56:41.810713 | 0x00007f699a3cc700 | info | [ResponseMetrics]ResponseCode: 302
+2020-06-09 23:56:41.811098 | 0x00007f699a3cc700 | info | 0 /redirect HTTP/1.1 302 119
+2020-06-09 23:56:41.811679 | 0x00007f699a3cc700 | info | Shutting down session.
+2020-06-09 23:56:41.811734 | 0x00007f32957d2700 | info | Proxying Request to URL localhost at port 8080 with URI /echo
+2020-06-09 23:56:41.813106 | 0x00007f699abcd700 | info | Successfully started new session.
+2020-06-09 23:56:41.813553 | 0x00007f699abcd700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57356
+2020-06-09 23:56:41.814039 | 0x00007f6999bcb700 | info | Parsing request...
+2020-06-09 23:56:41.814451 | 0x00007f6999bcb700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:41.814876 | 0x00007f6999bcb700 | info | Parsed request successfully.
+2020-06-09 23:56:41.815597 | 0x00007f6999bcb700 | info | [ResponseMetrics]RequestPath: /echo
+2020-06-09 23:56:41.815958 | 0x00007f6999bcb700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:41.816420 | 0x00007f6999bcb700 | info | 0 /echo HTTP/1.1 200 115
+2020-06-09 23:56:41.816880 | 0x00007f6999bcb700 | info | Shutting down session.
+2020-06-09 23:56:41.817309 | 0x00007f32957d2700 | info | Parsed request successfully.
+2020-06-09 23:56:41.818838 | 0x00007f32957d2700 | info | [ResponseMetrics]RequestPath: /proxy
+2020-06-09 23:56:41.819452 | 0x00007f32957d2700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:41.819920 | 0x00007f32957d2700 | info | 0 /proxy HTTP/1.1 200 83
+100   115  100   115    0     0   5750      0 --:--:-- --:--:-- --:--:--  5750
+2020-06-09 23:56:41.820708 | 0x00007f32957d2700 | info | Shutting down session.
+SUCCESS: PASSED ALL TESTS
+2020-06-09 23:56:41.832200 | 0x00007f69a3943140 | info | Program terminated with SIGTERM
+2020-06-09 23:56:41.832231 | 0x00007f329ed49140 | info | Program terminated with SIGTERM
+<end of output>
+Test time =   3.21 sec
+----------------------------------------------------------
+Test Passed.
+"integration_test" end time: Jun 09 23:56 UTC
+"integration_test" time elapsed: 00:00:03
+----------------------------------------------------------
+
+97/97 Testing: multithreading_test
+97/97 Test: multithreading_test
+Command: "/usr/bin/python3" "/usr/src/projects/cs130/mrjk-web-server/tests/multithreading_test.py"
+Directory: /usr/src/projects/cs130/mrjk-web-server/build
+"multithreading_test" start time: Jun 09 23:56 UTC
+Output:
+----------------------------------------------------------
+Server Response for Thread 3:
+HTTP/1.0 200 OK
+Content-Length: 22
+Content-Type: text/plain
+
+GET /echo HTTP/1.0
+
+#---------------------------------------------------
+Server Response for Thread 0:
+HTTP/1.0 200 OK
+Content-Length: 22
+Content-Type: text/plain
+
+GET /echo HTTP/1.0
+
+#---------------------------------------------------
+Server Response for Thread 1:
+HTTP/1.0 200 OK
+Content-Length: 22
+Content-Type: text/plain
+
+GET /echo HTTP/1.0
+
+#---------------------------------------------------
+Server Response for Thread 2:
+HTTP/1.0 200 OK
+Content-Length: 22
+Content-Type: text/plain
+
+GET /echo HTTP/1.0
+
+#---------------------------------------------------
+MULTITHREADED TEST SUCCEEDED
+<end of output>
+Test time =   1.42 sec
+----------------------------------------------------------
+Test Passed.
+"multithreading_test" end time: Jun 09 23:56 UTC
+"multithreading_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Jun 09 23:56 UTC

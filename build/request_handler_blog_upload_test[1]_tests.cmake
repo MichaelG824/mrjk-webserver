@@ -1,0 +1,5 @@
+add_test( Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest /usr/src/projects/cs130/mrjk-web-server/build/bin/request_handler_blog_upload_test [==[--gtest_filter=Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/cs130/mrjk-web-server/tests)
+add_test( Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest /usr/src/projects/cs130/mrjk-web-server/build/bin/request_handler_blog_upload_test [==[--gtest_filter=Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/cs130/mrjk-web-server/tests)
+set( request_handler_blog_upload_test_TESTS Blog_Upload_Request_Handler_Test.GetBlogUploadFailureTest Blog_Upload_Request_Handler_Test.POSTBlogUploadSuccessTest)

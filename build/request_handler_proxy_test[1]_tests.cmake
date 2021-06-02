@@ -1,0 +1,5 @@
+add_test( Proxy_Request_HandlerTest.UCLATest /usr/src/projects/cs130/mrjk-web-server/build/bin/request_handler_proxy_test [==[--gtest_filter=Proxy_Request_HandlerTest.UCLATest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Proxy_Request_HandlerTest.UCLATest PROPERTIES WORKING_DIRECTORY /usr/src/projects/cs130/mrjk-web-server/tests)
+add_test( Proxy_Request_HandlerTest.ExampleTest /usr/src/projects/cs130/mrjk-web-server/build/bin/request_handler_proxy_test [==[--gtest_filter=Proxy_Request_HandlerTest.ExampleTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Proxy_Request_HandlerTest.ExampleTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/cs130/mrjk-web-server/tests)
+set( request_handler_proxy_test_TESTS Proxy_Request_HandlerTest.UCLATest Proxy_Request_HandlerTest.ExampleTest)

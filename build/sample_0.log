@@ -1,0 +1,46 @@
+2020-06-09 23:56:42.222601 | 0x00007f592b181140 | info | Parsing configuration file...
+2020-06-09 23:56:42.227085 | 0x00007f592b181140 | info | Port number: 8080
+2020-06-09 23:56:42.227544 | 0x00007f592b181140 | info | Echo location: /echo
+2020-06-09 23:56:42.227933 | 0x00007f592b181140 | info | Parsed configuration file successfully.
+2020-06-09 23:56:42.228855 | 0x00007f592b181140 | info | ProcessID of server is: 15376
+2020-06-09 23:56:42.229312 | 0x00007f592b181140 | info | Successfully started web server using port number 8080
+2020-06-09 23:56:43.221573 | 0x00007f592240b700 | info | Successfully started new session.
+2020-06-09 23:56:43.223746 | 0x00007f592240b700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57358
+2020-06-09 23:56:43.225414 | 0x00007f592240b700 | info | Parsing request...
+2020-06-09 23:56:43.225590 | 0x00007f5921409700 | info | Successfully started new session.
+2020-06-09 23:56:43.228482 | 0x00007f5921409700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57360
+2020-06-09 23:56:43.229771 | 0x00007f592240b700 | info | Parsing request...
+2020-06-09 23:56:43.229884 | 0x00007f5921c0a700 | info | Successfully started new session.
+2020-06-09 23:56:43.231710 | 0x00007f5921c0a700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57362
+2020-06-09 23:56:43.232765 | 0x00007f5921c0a700 | info | Parsing request...
+2020-06-09 23:56:43.232876 | 0x00007f5920c08700 | info | Successfully started new session.
+2020-06-09 23:56:43.234513 | 0x00007f5920c08700 | info | [ResponseMetrics]Client_IP: 127.0.0.1:57364
+2020-06-09 23:56:43.235465 | 0x00007f5920c08700 | info | Parsing request...
+2020-06-09 23:56:43.236059 | 0x00007f5920c08700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:43.236740 | 0x00007f5920c08700 | info | Parsed request successfully.
+2020-06-09 23:56:43.237692 | 0x00007f5920c08700 | info | [ResponseMetrics]RequestPath: /echo
+2020-06-09 23:56:43.238775 | 0x00007f5920c08700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:43.239570 | 0x00007f5920c08700 | info | 0 /echo HTTP/1.0 200 22
+2020-06-09 23:56:43.240398 | 0x00007f5920c08700 | info | Shutting down session.
+2020-06-09 23:56:43.240748 | 0x00007f592240b700 | info | Parsing request...
+2020-06-09 23:56:43.241843 | 0x00007f592240b700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:43.242439 | 0x00007f592240b700 | info | Parsed request successfully.
+2020-06-09 23:56:43.243009 | 0x00007f592240b700 | info | [ResponseMetrics]RequestPath: /echo
+2020-06-09 23:56:43.243625 | 0x00007f592240b700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:43.244173 | 0x00007f592240b700 | info | 0 /echo HTTP/1.0 200 22
+2020-06-09 23:56:43.244880 | 0x00007f592240b700 | info | Shutting down session.
+2020-06-09 23:56:43.245211 | 0x00007f5921409700 | info | Parsing request...
+2020-06-09 23:56:43.247767 | 0x00007f5921409700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:43.248830 | 0x00007f5921409700 | info | Parsed request successfully.
+2020-06-09 23:56:43.249756 | 0x00007f5921409700 | info | [ResponseMetrics]RequestPath: /echo
+2020-06-09 23:56:43.250475 | 0x00007f5921409700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:43.251439 | 0x00007f5921409700 | info | 0 /echo HTTP/1.0 200 22
+2020-06-09 23:56:43.252366 | 0x00007f5921409700 | info | Shutting down session.
+2020-06-09 23:56:43.252894 | 0x00007f5921c0a700 | info | Parsing request...
+2020-06-09 23:56:43.253940 | 0x00007f5921c0a700 | info | [ResponseMetrics]Request_Handler: echo
+2020-06-09 23:56:43.254820 | 0x00007f5921c0a700 | info | Parsed request successfully.
+2020-06-09 23:56:43.255402 | 0x00007f5921c0a700 | info | [ResponseMetrics]RequestPath: /echo
+2020-06-09 23:56:43.255880 | 0x00007f5921c0a700 | info | [ResponseMetrics]ResponseCode: 200
+2020-06-09 23:56:43.257413 | 0x00007f5921c0a700 | info | 0 /echo HTTP/1.0 200 22
+2020-06-09 23:56:43.258591 | 0x00007f5921c0a700 | info | Shutting down session.
+2020-06-09 23:56:43.260354 | 0x00007f592b181140 | info | Program terminated with SIGTERM

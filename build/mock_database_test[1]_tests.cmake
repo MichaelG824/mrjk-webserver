@@ -1,0 +1,7 @@
+add_test( MockDatabaseTest.BlogNone /usr/src/projects/cs130/mrjk-web-server/build/bin/mock_database_test [==[--gtest_filter=MockDatabaseTest.BlogNone]==] --gtest_also_run_disabled_tests)
+set_tests_properties( MockDatabaseTest.BlogNone PROPERTIES WORKING_DIRECTORY /usr/src/projects/cs130/mrjk-web-server/tests)
+add_test( MockDatabaseTest.BlogDNE /usr/src/projects/cs130/mrjk-web-server/build/bin/mock_database_test [==[--gtest_filter=MockDatabaseTest.BlogDNE]==] --gtest_also_run_disabled_tests)
+set_tests_properties( MockDatabaseTest.BlogDNE PROPERTIES WORKING_DIRECTORY /usr/src/projects/cs130/mrjk-web-server/tests)
+add_test( MockDatabaseTest.BlogInsertGet /usr/src/projects/cs130/mrjk-web-server/build/bin/mock_database_test [==[--gtest_filter=MockDatabaseTest.BlogInsertGet]==] --gtest_also_run_disabled_tests)
+set_tests_properties( MockDatabaseTest.BlogInsertGet PROPERTIES WORKING_DIRECTORY /usr/src/projects/cs130/mrjk-web-server/tests)
+set( mock_database_test_TESTS MockDatabaseTest.BlogNone MockDatabaseTest.BlogDNE MockDatabaseTest.BlogInsertGet)

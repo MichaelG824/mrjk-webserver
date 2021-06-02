@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/cs130/mrjk-web-server/build/mock_database_test[1]_tests.cmake")
+  include("/usr/src/projects/cs130/mrjk-web-server/build/mock_database_test[1]_tests.cmake")
+else()
+  add_test(mock_database_test_NOT_BUILT mock_database_test_NOT_BUILT)
+endif()
